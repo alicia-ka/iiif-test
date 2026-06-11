@@ -1,0 +1,132 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p50.json",
+  "@type": "sc:AnnotationList",
+  "label": "G30495-02 annotations p50",
+  "resources": [
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p50-r0260",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "jumbulu,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "50"
+          },
+          {
+            "label": "source row",
+            "value": "260"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p50#xywh=2002,1620,123,420"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p50-r0261",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "altun,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "50"
+          },
+          {
+            "label": "source row",
+            "value": "261"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p50#xywh=3063,1620,158,318"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p50-r0262",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "esiten,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "50"
+          },
+          {
+            "label": "source row",
+            "value": "262"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p50#xywh=4365,1680,179,385"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p50-r0263",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "ukunu mergen,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "50"
+          },
+          {
+            "label": "source row",
+            "value": "263"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p50#xywh=5464,1694,182,724"
+    }
+  ]
+}

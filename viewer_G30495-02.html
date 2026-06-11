@@ -144,11 +144,20 @@
       return match ? match.slice(1).map(Number) : null;
     }
 
+    function resolveAnnotationUrl(url) {
+      const publicPrefix = "https://alicia-ka.github.io/iiif-test/";
+      const isLocal = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+      if (isLocal && url.startsWith(publicPrefix)) {
+        return url.slice(publicPrefix.length);
+      }
+      return url;
+    }
+
     async function loadAnnotations(canvas) {
       const refs = canvas.otherContent || [];
       const all = [];
       for (const ref of refs) {
-        const response = await fetch(ref["@id"]);
+        const response = await fetch(resolveAnnotationUrl(ref["@id"]));
         const data = await response.json();
         all.push(...(data.resources || []));
       }
@@ -193,7 +202,8 @@
         pageAnnotations.forEach((anno, idx) => {
           const item = document.createElement("div");
           item.className = "item";
-          item.innerHTML = `<span class="tag">${anno.label || "annotation"}</span><span class="text"></span>`;
+          item.innerHTML = `<span class="tag"></span><span class="text"></span>`;
+          item.querySelector(".tag").textContent = anno.label || "annotation";
           item.querySelector(".text").textContent = anno.resource.chars;
           item.addEventListener("click", () => focusAnnotation(idx));
           list.appendChild(item);

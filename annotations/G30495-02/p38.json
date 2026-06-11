@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p38.json",
+  "@type": "sc:AnnotationList",
+  "label": "G30495-02 annotations p38",
+  "resources": [
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p38-r0234",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "dalami,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "38"
+          },
+          {
+            "label": "source row",
+            "value": "234"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p38#xywh=2730,1564,112,343"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p38-r0235",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "hūhūna,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "38"
+          },
+          {
+            "label": "source row",
+            "value": "235"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p38#xywh=4799,1557,168,472"
+    }
+  ]
+}

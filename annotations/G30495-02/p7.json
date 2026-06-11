@@ -1,11 +1,11 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7.json",
   "@type": "sc:AnnotationList",
-  "label": "G30495-02 annotations p4",
+  "label": "G30495-02 annotations p7",
   "resources": [
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0020",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0139",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -13,7 +13,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "ulai,",
+        "chars": "solho,",
         "metadata": [
           {
             "label": "category",
@@ -25,359 +25,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "20"
+            "value": "139"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1074,1541,156,384"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1144,1573,114,378"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0021",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "hifu,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "21"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1112,2875,127,305"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0022",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "santan,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "22"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1318,1547,168,346"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0023",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "janai,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "23"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1315,2891,137,315"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0024",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "kersu,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "24"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1541,1547,127,378"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0025",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "ceke,★stary에없음★",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "25"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1490,2888,172,302"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0026",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "dagušan,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "26"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1757,1544,172,448"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0027",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "nikan,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "27"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1744,2882,203,324"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0028",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "ubahai,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "28"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1973,1550,130,470"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0029",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "jarhūna,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "29"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=1973,2878,200,505"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0030",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "dambu,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "30"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2202,1541,146,334"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0031",
-      "@type": "oa:Annotation",
-      "motivation": "oa:commenting",
-      "label": "name",
-      "resource": {
-        "@type": "cnt:ContentAsText",
-        "format": "text/plain",
-        "label": "name",
-        "chars": "narbu,",
-        "metadata": [
-          {
-            "label": "category",
-            "value": "八旗氏族通譜 一 [G30495-02]"
-          },
-          {
-            "label": "attribute",
-            "value": "name"
-          },
-          {
-            "label": "IIIF page",
-            "value": "4"
-          },
-          {
-            "label": "source row",
-            "value": "31"
-          }
-        ]
-      },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2192,2862,146,327"
-    },
-    {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0032",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0140",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -397,18 +56,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "32"
+            "value": "140"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2364,1544,184,315"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1102,2891,172,283"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0033",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0141",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -416,7 +75,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "damin,",
+        "chars": "badamu,",
         "metadata": [
           {
             "label": "category",
@@ -428,18 +87,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "33"
+            "value": "141"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2424,2866,172,334"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1357,1576,140,394"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0034",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0142",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -447,7 +106,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "anahan,",
+        "chars": "darkan,",
         "metadata": [
           {
             "label": "category",
@@ -459,18 +118,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "34"
+            "value": "142"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2621,1550,175,413"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1366,2904,165,416"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0035",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0143",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -478,7 +137,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "hūsibu kūwarda,",
+        "chars": "ebgin,",
         "metadata": [
           {
             "label": "category",
@@ -490,18 +149,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "35"
+            "value": "143"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2634,2866,178,953"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1582,1563,159,343"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0036",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0144",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -509,7 +168,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "otai baturu,",
+        "chars": "busan,",
         "metadata": [
           {
             "label": "category",
@@ -521,18 +180,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "36"
+            "value": "144"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2840,1550,130,842"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1595,2907,162,311"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0037",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0145",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -540,7 +199,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "haimbu baturu,",
+        "chars": "busikū,",
         "metadata": [
           {
             "label": "category",
@@ -552,18 +211,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "37"
+            "value": "145"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=2834,2866,168,909"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1808,1573,127,435"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0038",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0146",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -571,7 +230,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "babuka,",
+        "chars": "fulan,",
         "metadata": [
           {
             "label": "category",
@@ -583,18 +242,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "38"
+            "value": "146"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=3059,1544,191,384"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=1798,2904,159,324"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0039",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0147",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -602,7 +261,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "hošotoi",
+        "chars": "muki,",
         "metadata": [
           {
             "label": "category",
@@ -614,18 +273,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "39"
+            "value": "147"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=3069,2875,124,524"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2021,1560,114,299"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0040",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0148",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -633,7 +292,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "dabangga,",
+        "chars": "daimbulu,",
         "metadata": [
           {
             "label": "category",
@@ -645,18 +304,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "40"
+            "value": "148"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=3742,1566,175,470"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2036,2885,127,540"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0041",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0149",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -664,7 +323,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "barin,",
+        "chars": "jerku,",
         "metadata": [
           {
             "label": "category",
@@ -676,18 +335,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "41"
+            "value": "149"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=3739,2882,168,283"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2240,1569,121,321"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0042",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0150",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -695,7 +354,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "kanangga,",
+        "chars": "nasingga,",
         "metadata": [
           {
             "label": "category",
@@ -707,18 +366,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "42"
+            "value": "150"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=3946,1554,184,451"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2233,2897,175,486"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0043",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0151",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -726,7 +385,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "dalami,",
+        "chars": "kirangga,",
         "metadata": [
           {
             "label": "category",
@@ -738,18 +397,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "43"
+            "value": "151"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=3958,2875,124,429"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2440,1563,191,454"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0044",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0152",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -757,7 +416,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "hūhūna,",
+        "chars": "aikuwan domsi,",
         "metadata": [
           {
             "label": "category",
@@ -769,18 +428,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "44"
+            "value": "152"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4174,1547,187,477"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2459,2894,165,893"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0045",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0153",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -788,7 +447,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "suldu,",
+        "chars": "urgene,",
         "metadata": [
           {
             "label": "category",
@@ -800,18 +459,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "45"
+            "value": "153"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4152,2869,156,400"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2688,1560,162,403"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0046",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0154",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -819,7 +478,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "tanaka guwanggun,",
+        "chars": "beisengge,",
         "metadata": [
           {
             "label": "category",
@@ -831,18 +490,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "46"
+            "value": "154"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4400,1582,172,870"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2632,2901,183,550"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0047",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0155",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -850,7 +509,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "mihana,",
+        "chars": "namjan,",
         "metadata": [
           {
             "label": "category",
@@ -862,18 +521,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "47"
+            "value": "155"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4384,2885,178,369"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2885,1547,165,337"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0048",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0156",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -881,7 +540,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "šukuri,",
+        "chars": "ahanikan,",
         "metadata": [
           {
             "label": "category",
@@ -893,18 +552,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "48"
+            "value": "156"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4600,1566,146,451"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=2891,2897,162,534"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0049",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0157",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -912,7 +571,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "sangguni,",
+        "chars": "arbai,",
         "metadata": [
           {
             "label": "category",
@@ -924,18 +583,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "49"
+            "value": "157"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4600,2872,143,483"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=3110,1557,118,403"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0050",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0158",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -943,7 +602,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "alami,",
+        "chars": "bolo fiyanggū,",
         "metadata": [
           {
             "label": "category",
@@ -955,18 +614,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "50"
+            "value": "158"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4816,1576,133,416"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=3101,2907,137,851"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0051",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0159",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -974,7 +633,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "naran,",
+        "chars": "munggai,",
         "metadata": [
           {
             "label": "category",
@@ -986,18 +645,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "51"
+            "value": "159"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=4819,2866,191,327"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=3742,1598,121,410"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0052",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0160",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1005,7 +664,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "daran,",
+        "chars": "eman,",
         "metadata": [
           {
             "label": "category",
@@ -1017,18 +676,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "52"
+            "value": "160"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5032,1582,191,346"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=3730,2916,159,276"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0053",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0161",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1036,7 +695,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "wehene,",
+        "chars": "babai,",
         "metadata": [
           {
             "label": "category",
@@ -1048,18 +707,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "53"
+            "value": "161"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5039,2891,172,359"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=3971,1601,114,340"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0054",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0162",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1067,7 +726,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "hūsi,",
+        "chars": "sohin,",
         "metadata": [
           {
             "label": "category",
@@ -1079,18 +738,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "54"
+            "value": "162"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5261,1576,140,384"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=3958,2910,152,359"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0055",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0163",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1098,7 +757,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "dujyba,",
+        "chars": "artai,",
         "metadata": [
           {
             "label": "category",
@@ -1110,18 +769,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "55"
+            "value": "163"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5207,2885,187,442"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4165,1598,130,397"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0056",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0164",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1129,7 +788,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "mocin gergen,",
+        "chars": "ajibu,",
         "metadata": [
           {
             "label": "category",
@@ -1141,18 +800,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "56"
+            "value": "164"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5487,1566,178,731"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4174,2916,130,334"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0057",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0165",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1160,7 +819,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "mušu,",
+        "chars": "decu,",
         "metadata": [
           {
             "label": "category",
@@ -1172,18 +831,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "57"
+            "value": "165"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5477,2888,130,362"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4400,1611,118,318"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0058",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0166",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1191,7 +850,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "yunggan,",
+        "chars": "jaji,",
         "metadata": [
           {
             "label": "category",
@@ -1203,18 +862,18 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "58"
+            "value": "166"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5706,1592,165,429"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4397,2942,108,286"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4-r0059",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0167",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
@@ -1222,7 +881,7 @@
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "label": "name",
-        "chars": "olcibu,",
+        "chars": "jakūni,",
         "metadata": [
           {
             "label": "category",
@@ -1234,15 +893,356 @@
           },
           {
             "label": "IIIF page",
-            "value": "4"
+            "value": "7"
           },
           {
             "label": "source row",
-            "value": "59"
+            "value": "167"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4#xywh=5696,2869,149,451"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4607,1611,130,388"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0168",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "kusene,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "168"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4607,2923,172,343"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0169",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "sartai,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "169"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4819,1608,140,394"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0170",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "subehai,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "170"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4829,2923,127,454"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0171",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "arsalan,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "171"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=5048,1614,178,429"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0172",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "dage,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "172"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=4991,2920,194,334"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0173",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "ts'angju,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "173"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=5248,1595,152,397"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0174",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "sorho,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "174"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=5261,2910,124,397"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0175",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "nata,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "175"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=5474,1604,165,283"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0176",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "cahatai,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "176"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=5477,2926,124,448"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0177",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "yukbu,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "177"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=5684,1620,140,315"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7-r0178",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "fulu,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "7"
+          },
+          {
+            "label": "source row",
+            "value": "178"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7#xywh=5693,2932,133,318"
     }
   ]
 }

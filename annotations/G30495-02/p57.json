@@ -1,0 +1,39 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p57.json",
+  "@type": "sc:AnnotationList",
+  "label": "G30495-02 annotations p57",
+  "resources": [
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p57-r0279",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "text",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "text",
+        "chars": "ereci wesihun, gemu juwan araci acara niyalma, gūwa juwan araci ojoro baita faššan akūngge be,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "text"
+          },
+          {
+            "label": "IIIF page",
+            "value": "57"
+          },
+          {
+            "label": "source row",
+            "value": "279"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p57#xywh=5303,1564,378,3002"
+    }
+  ]
+}

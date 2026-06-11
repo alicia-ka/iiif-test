@@ -1,0 +1,101 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48.json",
+  "@type": "sc:AnnotationList",
+  "label": "G30495-02 annotations p48",
+  "resources": [
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48-r0254",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "yoldo,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "48"
+          },
+          {
+            "label": "source row",
+            "value": "254"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p48#xywh=1351,1634,126,353"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48-r0255",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "ubahai,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "48"
+          },
+          {
+            "label": "source row",
+            "value": "255"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p48#xywh=3497,1606,98,413"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48-r0256",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "label": "name",
+        "chars": "samha,",
+        "metadata": [
+          {
+            "label": "category",
+            "value": "八旗氏族通譜 一 [G30495-02]"
+          },
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "IIIF page",
+            "value": "48"
+          },
+          {
+            "label": "source row",
+            "value": "256"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p48#xywh=4816,1596,126,364"
+    }
+  ]
+}
