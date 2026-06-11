@@ -563,7 +563,7 @@
         const el = document.createElement("div");
         el.className = "anno-overlay";
         el.dataset.id = item.id;
-        el.title = `${item.type} · Page ${item.page} · No. ${item.sourceRow}`;
+        el.title = item.text;
         el.style.backgroundColor = item.color || COLORS[item.type] || COLORS.name;
         el.style.opacity = String(item.opacity || OPACITY[item.type] || OPACITY.default);
         if (!overlaysVisible) el.classList.add("hidden");
