@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p18.json",
+  "@type": "sc:AnnotationList",
+  "label": "G30495-02 annotations p18",
+  "resources": [
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p18-0001",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "yangšan,",
+        "metadata": [
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "source row",
+            "value": "207"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p18#xywh=1757,1542,151,376"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p18-0002",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "isun,",
+        "metadata": [
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "source row",
+            "value": "208"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p18#xywh=4610,1603,126,298"
+    }
+  ]
+}
