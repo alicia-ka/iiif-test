@@ -2,40 +2,44 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p65.json",
   "@type": "sc:AnnotationList",
-  "label": "G30495-02 annotations, page 65",
+  "label": "Annotations for page 65",
   "resources": [
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0380.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no380.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "chars": "booi nirui",
-        "label": "text"
+        "label": "gūsa"
       },
       "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65#xywh=1127,3317,109,588",
       "metadata": [
         {
           "label": "type",
-          "value": "text"
+          "value": "gūsa"
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "380"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-380 { background-color: #E6DACC; opacity: 0.99; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0381.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no381.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -52,20 +56,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "381"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-381 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0382.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no382.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -82,50 +90,58 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "382"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-382 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0383.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no383.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "chars": "◯gulu lamun i",
-        "label": "text"
+        "label": "gūsa"
       },
       "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65#xywh=1551,3621,161,892",
       "metadata": [
         {
           "label": "type",
-          "value": "text"
+          "value": "gūsa"
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "383"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-383 { background-color: #E6DACC; opacity: 0.99; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0384.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no384.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -142,50 +158,58 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "384"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-384 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0385.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no385.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "chars": "booi nirui",
-        "label": "text"
+        "label": "gūsa"
       },
       "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65#xywh=1778,3097,130,633",
       "metadata": [
         {
           "label": "type",
-          "value": "text"
+          "value": "gūsa"
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "385"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-385 { background-color: #E6DACC; opacity: 0.99; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0386.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no386.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -202,50 +226,58 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "386"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-386 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0387.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no387.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "chars": "◯kubuhe lamun i",
-        "label": "text"
+        "label": "gūsa"
       },
       "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65#xywh=2163,2687,186,997",
       "metadata": [
         {
           "label": "type",
-          "value": "text"
+          "value": "gūsa"
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "387"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-387 { background-color: #E6DACC; opacity: 0.99; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0388.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no388.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -262,20 +294,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "388"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-388 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0389.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no389.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -292,50 +328,58 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "389"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-389 { background-color: #FBC956; opacity: 0.58; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0390.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no390.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "chars": "gulu suwayan i",
-        "label": "text"
+        "label": "gūsa"
       },
       "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65#xywh=3658,1641,186,836",
       "metadata": [
         {
           "label": "type",
-          "value": "text"
+          "value": "gūsa"
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "390"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-390 { background-color: #E6DACC; opacity: 0.99; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0391.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no391.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -352,20 +396,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "391"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-391 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0392.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no392.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -382,20 +430,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "392"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-392 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0393.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no393.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -412,50 +464,58 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "393"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-393 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0394.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no394.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "chars": "◯gulu fulgiyan i",
-        "label": "text"
+        "label": "gūsa"
       },
       "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65#xywh=4316,1620,179,913",
       "metadata": [
         {
           "label": "type",
-          "value": "text"
+          "value": "gūsa"
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "394"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-394 { background-color: #E6DACC; opacity: 0.99; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0395.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no395.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -472,50 +532,58 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "395"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-395 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0396.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no396.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
         "chars": "◯",
-        "label": "text"
+        "label": "gūsa"
       },
       "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65#xywh=4109,4363,130,136",
       "metadata": [
         {
           "label": "type",
-          "value": "text"
+          "value": "gūsa"
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "396"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-396 { background-color: #E6DACC; opacity: 0.99; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0397.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no397.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -532,20 +600,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "397"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-397 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0398.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no398.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -562,20 +634,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "398"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-398 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0399.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no399.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -592,20 +668,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "399"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-399 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0400.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no400.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -622,20 +702,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "400"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-400 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0401.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no401.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -652,20 +736,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "401"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-401 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0402.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no402.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -682,20 +770,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "402"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-402 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0403.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no403.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -712,20 +804,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "403"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-403 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0404.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no404.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -742,20 +838,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "404"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-404 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0405.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no405.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -772,20 +872,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "405"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-405 { background-color: #FBC956; opacity: 0.58; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0406.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p65_no406.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -802,17 +906,21 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "406"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-406 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     }
   ]
 }

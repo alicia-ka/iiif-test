@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p53.json",
   "@type": "sc:AnnotationList",
-  "label": "G30495-02 annotations, page 53",
+  "label": "Annotations for page 53",
   "resources": [
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0270.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p53_no270.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -22,20 +22,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "270"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-270 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0271.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p53_no271.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -52,20 +56,24 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "271"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-271 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0272.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p53_no272.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
@@ -82,17 +90,21 @@
         },
         {
           "label": "sourceVolume",
-          "value": "八旗氏族通譜 二 三 [G30495-03]"
+          "value": "G30495-02"
         },
         {
           "label": "volume",
-          "value": "巻三"
+          "value": "巻一"
         },
         {
-          "label": "No.",
+          "label": "sourceRow",
           "value": "272"
         }
-      ]
+      ],
+      "stylesheet": {
+        "@type": "oa:CssStyle",
+        "chars": ".anno-272 { background-color: #54B5E2; opacity: 0.34; }"
+      }
     }
   ]
 }

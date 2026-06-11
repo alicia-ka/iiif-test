@@ -1,20 +1,20 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p21.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p11.json",
   "@type": "sc:AnnotationList",
-  "label": "Annotations for page 21",
+  "label": "Annotations for page 11",
   "resources": [
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p21_no210.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p11_no196.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "gisai,",
+        "chars": "nahai,",
         "label": "name"
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p21#xywh=1705,1631,137,297",
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p11#xywh=2046,1593,118,395",
       "metadata": [
         {
           "label": "type",
@@ -30,25 +30,25 @@
         },
         {
           "label": "sourceRow",
-          "value": "210"
+          "value": "196"
         }
       ],
       "stylesheet": {
         "@type": "oa:CssStyle",
-        "chars": ".anno-210 { background-color: #54B5E2; opacity: 0.34; }"
+        "chars": ".anno-196 { background-color: #54B5E2; opacity: 0.34; }"
       }
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p21_no211.json",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_p11_no197.json",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "ulai,",
+        "chars": "soohai,",
         "label": "name"
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p21#xywh=5478,1582,102,315",
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p11#xywh=5251,1561,118,452",
       "metadata": [
         {
           "label": "type",
@@ -64,12 +64,12 @@
         },
         {
           "label": "sourceRow",
-          "value": "211"
+          "value": "197"
         }
       ],
       "stylesheet": {
         "@type": "oa:CssStyle",
-        "chars": ".anno-211 { background-color: #54B5E2; opacity: 0.34; }"
+        "chars": ".anno-197 { background-color: #54B5E2; opacity: 0.34; }"
       }
     }
   ]
