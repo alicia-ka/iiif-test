@@ -253,7 +253,7 @@
         const color = colorFor(item.type);
         element.querySelector(".tag").textContent = item.type || "annotation";
         element.querySelector(".tag").style.setProperty("--tag-color", color);
-        element.querySelector(".meta").textContent = `Page ${item.page} · row ${item.sourceRow}`;
+        element.querySelector(".meta").textContent = `Page ${item.page} · No. ${item.sourceRow}`;
         element.querySelector(".text").textContent = item.text;
         element.addEventListener("click", async () => {
           if (mode === "search") {
