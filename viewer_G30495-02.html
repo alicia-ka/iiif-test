@@ -30,10 +30,90 @@
     }
     .app {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 380px;
+      grid-template-columns: 128px minmax(0, 1fr) 380px;
       height: 100vh;
       min-height: 0;
       overflow: hidden;
+    }
+    .app.thumbs-collapsed {
+      grid-template-columns: 0 minmax(0, 1fr) 380px;
+    }
+    .thumbs {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      background: #f5f2eb;
+      border-right: 1px solid var(--line);
+      transition: opacity 120ms ease;
+    }
+    .app.thumbs-collapsed .thumbs {
+      opacity: 0;
+      pointer-events: none;
+      border-right: 0;
+    }
+    .thumbs-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 52px;
+      padding: 8px 8px 8px 10px;
+      border-bottom: 1px solid var(--line);
+      color: #393731;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .thumbs-head button {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #c9c2b5;
+      border-radius: 6px;
+      background: #fffaf1;
+      color: #3a3833;
+      cursor: pointer;
+      font: 700 18px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    #thumbList {
+      overflow: auto;
+      min-height: 0;
+      padding: 8px;
+    }
+    .thumb {
+      display: block;
+      width: 100%;
+      margin: 0 0 8px;
+      padding: 5px;
+      border: 2px solid transparent;
+      border-radius: 7px;
+      background: rgba(255,255,255,0.72);
+      color: #34322d;
+      cursor: pointer;
+      font: inherit;
+      text-align: center;
+    }
+    .thumb:hover {
+      border-color: #bcb4a5;
+      background: #fff;
+    }
+    .thumb.selected {
+      border-color: var(--selected);
+      box-shadow: 0 0 0 2px rgba(27,79,114,0.14);
+      background: #fff;
+    }
+    .thumb img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      background: #e9e5dc;
+      border-radius: 4px;
+    }
+    .thumb span {
+      display: block;
+      padding-top: 4px;
+      font-size: 12px;
+      line-height: 1.2;
     }
     .stage {
       min-width: 0;
@@ -162,19 +242,6 @@
       color: var(--muted);
       font-size: 13px;
     }
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5px;
-      padding-top: 2px;
-    }
-    .chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 12px;
-      color: #34322d;
-    }
     .swatch {
       width: 11px;
       height: 11px;
@@ -259,15 +326,37 @@
     @media (max-width: 900px) {
       .app {
         grid-template-columns: 1fr;
-        grid-template-rows: 58vh 42vh;
+        grid-template-rows: 96px 52vh 1fr;
         height: 100vh;
+      }
+      .app.thumbs-collapsed {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0 58vh 42vh;
+      }
+      .thumbs {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .thumbs-head {
+        display: none;
+      }
+      #thumbList {
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 8px;
+      }
+      .thumb {
+        flex: 0 0 72px;
+        margin: 0;
       }
       .stage {
         border-right: 0;
         border-bottom: 1px solid var(--line);
       }
       .viewerArea {
-        height: calc(58vh - 52px);
+        height: calc(100% - 52px);
       }
       .image-nav {
         width: 40px;
@@ -276,15 +365,23 @@
       }
       .side {
         min-height: 0;
-        height: 42vh;
+        height: 100%;
       }
     }
   </style>
 </head>
 <body>
   <main class="app">
+    <aside class="thumbs" id="thumbsPane">
+      <div class="thumbs-head">
+        <span>Pages</span>
+        <button id="closeThumbs" type="button" title="Hide thumbnails" aria-label="Hide thumbnails">×</button>
+      </div>
+      <div id="thumbList"></div>
+    </aside>
     <section class="stage">
       <div class="toolbar">
+        <button id="toggleThumbs" type="button" title="Show or hide thumbnails" aria-label="Show or hide thumbnails">Pages</button>
         <button id="prev" type="button" title="Previous page">‹</button>
         <select id="pageSelect" title="Page"></select>
         <button id="next" type="button" title="Next page">›</button>
@@ -310,7 +407,6 @@
           <span id="resultCount">annotations_index JSON</span>
           <span id="status"></span>
         </div>
-        <div class="legend" id="legend"></div>
       </div>
       <div id="list"></div>
     </aside>
@@ -361,6 +457,8 @@
     const status = document.getElementById("status");
     const searchBox = document.getElementById("searchBox");
     const toggleAnnotations = document.getElementById("toggleAnnotations");
+    const app = document.querySelector(".app");
+    const thumbList = document.getElementById("thumbList");
 
     function canvasLabel(canvas) {
       const label = canvas.label;
@@ -384,6 +482,16 @@
       const service = Array.isArray(resource.service) ? resource.service[0] : resource.service;
       if (service && service["@id"]) return service["@id"].replace(/\/$/, "") + "/info.json";
       return { type: "image", url: resource["@id"] || resource.id };
+    }
+
+    function thumbnailUrlFor(canvas) {
+      const thumbnail = Array.isArray(canvas.thumbnail) ? canvas.thumbnail[0] : canvas.thumbnail;
+      if (typeof thumbnail === "string") return thumbnail;
+      if (thumbnail && (thumbnail["@id"] || thumbnail.id)) return thumbnail["@id"] || thumbnail.id;
+      const resource = canvas.images?.[0]?.resource || {};
+      const service = Array.isArray(resource.service) ? resource.service[0] : resource.service;
+      if (service && service["@id"]) return service["@id"].replace(/\/$/, "") + "/full/!160,160/0/default.jpg";
+      return resource["@id"] || resource.id || "";
     }
 
     function annotationsForCurrentPage() {
@@ -433,22 +541,12 @@
       ].join(" ").toLocaleLowerCase().includes(q));
     }
 
-    function renderLegend() {
-      const legend = document.getElementById("legend");
-      legend.innerHTML = "";
-      Object.entries(COLORS).forEach(([key, color]) => {
-        const chip = document.createElement("span");
-        chip.className = "chip";
-        chip.innerHTML = `<span class="swatch" style="background:${color}; opacity:${OPACITY[key] || OPACITY.default}"></span>${key}`;
-        legend.appendChild(chip);
-      });
-    }
-
     function loadPage(index, pendingSelectionId = null) {
       currentPageIndex = Math.max(0, Math.min(canvases.length - 1, index));
       const canvas = canvases[currentPageIndex];
       pageSelect.value = String(currentPageIndex);
       pageMeta.textContent = `${canvasLabel(canvas)} · ${annotationsForCurrentPage().length} annotations`;
+      updateThumbnailSelection();
       overlayById.clear();
       viewer.clearOverlays();
       viewer.open(tileSourceFor(canvas));
@@ -566,6 +664,55 @@
       });
     }
 
+    function scrollThumbToButton(button) {
+      if (!button) return;
+      const buttonRect = button.getBoundingClientRect();
+      const listRect = thumbList.getBoundingClientRect();
+      if (buttonRect.top >= listRect.top && buttonRect.bottom <= listRect.bottom &&
+          buttonRect.left >= listRect.left && buttonRect.right <= listRect.right) {
+        return;
+      }
+      const isHorizontal = getComputedStyle(thumbList).display === "flex";
+      if (isHorizontal) {
+        const middle = buttonRect.left - listRect.left + thumbList.scrollLeft + (buttonRect.width / 2);
+        thumbList.scrollTo({ left: Math.max(0, middle - (thumbList.clientWidth / 2)), behavior: "smooth" });
+      } else {
+        const middle = buttonRect.top - listRect.top + thumbList.scrollTop + (buttonRect.height / 2);
+        thumbList.scrollTo({ top: Math.max(0, middle - (thumbList.clientHeight / 2)), behavior: "smooth" });
+      }
+    }
+
+    function updateThumbnailSelection() {
+      thumbList.querySelectorAll(".thumb").forEach(button => {
+        button.classList.toggle("selected", Number(button.dataset.index) === currentPageIndex);
+      });
+      scrollThumbToButton(thumbList.querySelector(`.thumb[data-index="${currentPageIndex}"]`));
+    }
+
+    function renderThumbnails() {
+      thumbList.innerHTML = "";
+      canvases.forEach((canvas, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "thumb";
+        button.dataset.index = String(index);
+        button.title = canvasLabel(canvas);
+        const img = document.createElement("img");
+        img.alt = canvasLabel(canvas);
+        img.loading = "lazy";
+        img.src = thumbnailUrlFor(canvas);
+        const label = document.createElement("span");
+        label.textContent = canvasLabel(canvas);
+        button.appendChild(img);
+        button.appendChild(label);
+        button.addEventListener("click", event => {
+          event.preventDefault();
+          loadPage(index);
+        });
+        thumbList.appendChild(button);
+      });
+    }
+
     function setupPages() {
       pageSelect.innerHTML = "";
       canvases.forEach((canvas, index) => {
@@ -574,6 +721,7 @@
         option.textContent = canvasLabel(canvas);
         pageSelect.appendChild(option);
       });
+      renderThumbnails();
       const firstAnnotated = canvases.findIndex(canvas =>
         annotations.some(item => item.canvasLabel === canvasLabel(canvas))
       );
@@ -582,6 +730,12 @@
 
     document.getElementById("prev").addEventListener("click", () => loadPage(currentPageIndex - 1));
     document.getElementById("next").addEventListener("click", () => loadPage(currentPageIndex + 1));
+    document.getElementById("toggleThumbs").addEventListener("click", () => {
+      app.classList.toggle("thumbs-collapsed");
+    });
+    document.getElementById("closeThumbs").addEventListener("click", () => {
+      app.classList.add("thumbs-collapsed");
+    });
     document.getElementById("imagePrev").addEventListener("click", event => {
       event.preventDefault();
       event.stopPropagation();
@@ -611,7 +765,6 @@
     });
 
     async function init() {
-      renderLegend();
       const [manifestResponse, indexResponse] = await Promise.all([
         fetch(MANIFEST_URL),
         fetch(INDEX_URL)
