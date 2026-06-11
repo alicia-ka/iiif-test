@@ -175,9 +175,6 @@
       pageSelect.value = String(currentIndex);
       status.textContent = `${currentIndex + 1} / ${canvases.length}`;
       clearOverlays();
-      const image = canvas.images[0].resource;
-      const service = image.service["@id"];
-      viewer.open(`${service}/info.json`);
       const pageAnnotations = await loadAnnotations(canvas);
       viewer.addOnceHandler("open", () => {
         pageAnnotations.forEach((anno, idx) => {
@@ -202,6 +199,9 @@
           list.appendChild(item);
         });
       });
+      const image = canvas.images[0].resource;
+      const service = image.service["@id"];
+      viewer.open(`${service}/info.json`);
     }
 
     async function init() {
