@@ -139,7 +139,9 @@
     }
     .overlay.active {
       filter: saturate(1.25) brightness(1.05);
-      box-shadow: 0 0 18px rgba(17, 24, 32, .22);
+      outline: 3px solid rgba(17, 24, 32, .74);
+      outline-offset: 1px;
+      box-shadow: 0 0 18px rgba(17, 24, 32, .18);
     }
     .overlays-hidden .overlay {
       opacity: 0;
@@ -244,7 +246,9 @@
       if (!annotation) return;
       document.querySelectorAll(".overlay").forEach(el => el.classList.remove("active"));
       annotation.element.classList.add("active");
-      viewer.viewport.fitBounds(annotation.rect, true);
+      if (options.zoom) {
+        viewer.viewport.fitBounds(annotation.rect, true);
+      }
       if (options.scrollList) {
         jumpToListItem(annotation.item.id);
       }
