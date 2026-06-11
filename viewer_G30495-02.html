@@ -281,6 +281,7 @@
             pendingFocusId = item.id;
             await showPage(canvasIndexByLabel.get(item.canvasLabel) ?? currentIndex);
           } else {
+            selectListItem(item.id, false);
             focusAnnotation(idx);
           }
         });
@@ -289,21 +290,26 @@
       });
     }
 
-    function jumpToListItem(id) {
-      if (search.value.trim()) {
-        search.value = "";
-        renderCurrentPageList();
-      }
+    function selectListItem(id, shouldScroll) {
       document.querySelectorAll(".item.selected").forEach(el => el.classList.remove("selected"));
       const element = listElementsById.get(id);
       if (!element) return;
       element.classList.add("selected");
+      if (!shouldScroll) return;
       const sidebarRect = sidebar.getBoundingClientRect();
       const elementRect = element.getBoundingClientRect();
       sidebar.scrollTo({
         top: sidebar.scrollTop + elementRect.top - sidebarRect.top - (sidebar.clientHeight / 2) + (element.clientHeight / 2),
         behavior: "smooth"
       });
+    }
+
+    function jumpToListItem(id) {
+      if (search.value.trim()) {
+        search.value = "";
+        renderCurrentPageList();
+      }
+      selectListItem(id, true);
     }
 
     function renderSearchResults() {
@@ -351,11 +357,31 @@
             event?.stopPropagation?.();
             focusAnnotation(idx, { scrollList: true });
           };
+          const stopViewerGesture = event => {
+            event.preventDefault();
+            event.stopPropagation();
+          };
+          ["pointerdown", "pointerup", "mousedown", "mouseup", "touchstart", "touchend"].forEach(type => {
+            element.addEventListener(type, stopViewerGesture, { passive: false });
+          });
           element.addEventListener("click", handleOverlayClick);
           new OpenSeadragon.MouseTracker({
             element,
+            pressHandler: event => {
+              event.preventDefaultAction = true;
+              event.preventGesture = true;
+            },
+            dragHandler: event => {
+              event.preventDefaultAction = true;
+              event.preventGesture = true;
+            },
+            releaseHandler: event => {
+              event.preventDefaultAction = true;
+              event.preventGesture = true;
+            },
             clickHandler: event => {
               event.preventDefaultAction = true;
+              event.preventGesture = true;
               handleOverlayClick(event.originalEvent);
             }
           }).setTracking(true);
