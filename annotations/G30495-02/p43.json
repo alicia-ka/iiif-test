@@ -12,19 +12,23 @@
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "mocin gergen,",
+        "chars": "wehene,",
         "metadata": [
           {
             "label": "attribute",
             "value": "name"
           },
           {
+            "label": "source PDF page",
+            "value": "42"
+          },
+          {
             "label": "source row",
-            "value": "247"
+            "value": "244"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53#xywh=3556,1507,131,689"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53#xywh=1681,1510,131,348"
     },
     {
       "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p43-0002",
@@ -34,19 +38,49 @@
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "mušu,",
+        "chars": "hūsi,",
         "metadata": [
           {
             "label": "attribute",
             "value": "name"
           },
           {
+            "label": "source PDF page",
+            "value": "42"
+          },
+          {
             "label": "source row",
-            "value": "248"
+            "value": "245"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53#xywh=5138,1478,87,327"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53#xywh=2886,1517,126,376"
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p43-0003",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "label": "name",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "dujyba,",
+        "metadata": [
+          {
+            "label": "attribute",
+            "value": "name"
+          },
+          {
+            "label": "source PDF page",
+            "value": "42"
+          },
+          {
+            "label": "source row",
+            "value": "246"
+          }
+        ]
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53#xywh=3841,1564,137,469"
     }
   ]
 }

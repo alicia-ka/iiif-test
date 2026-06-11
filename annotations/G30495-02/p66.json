@@ -1,18 +1,18 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p66.json",
   "@type": "sc:AnnotationList",
-  "label": "G30495-02 annotations p48",
+  "label": "G30495-02 annotations p66",
   "resources": [
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48-0001",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p66-0001",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "yoldo,",
+        "chars": "hūsitun,",
         "metadata": [
           {
             "label": "attribute",
@@ -20,25 +20,25 @@
           },
           {
             "label": "source PDF page",
-            "value": "47"
+            "value": "65"
           },
           {
             "label": "source row",
-            "value": "254"
+            "value": "407"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p63#xywh=1852,1596,101,359"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p99#xywh=1659,1894,156,501"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48-0002",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p66-0002",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
       "label": "name",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "ubahai,",
+        "chars": "ajintai,",
         "metadata": [
           {
             "label": "attribute",
@@ -46,41 +46,41 @@
           },
           {
             "label": "source PDF page",
-            "value": "47"
+            "value": "65"
           },
           {
             "label": "source row",
-            "value": "255"
+            "value": "408"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p63#xywh=3565,1567,78,419"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p99#xywh=1849,1578,106,448"
     },
     {
-      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48-0003",
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p66-0003",
       "@type": "oa:Annotation",
       "motivation": "oa:commenting",
-      "label": "name",
+      "label": "text",
       "resource": {
         "@type": "cnt:ContentAsText",
         "format": "text/plain",
-        "chars": "samha,",
+        "chars": "ereci wesihun, gemu elhe taifin i forgon de, korcin i baci amasi tatafi gajiha niyalma.",
         "metadata": [
           {
             "label": "attribute",
-            "value": "name"
+            "value": "text"
           },
           {
             "label": "source PDF page",
-            "value": "47"
+            "value": "65"
           },
           {
             "label": "source row",
-            "value": "256"
+            "value": "409"
           }
         ]
       },
-      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p63#xywh=4618,1556,101,369"
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p99#xywh=1969,1564,394,2983"
     }
   ]
 }

@@ -106,13 +106,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p2"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p2.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 2"
-            }
           ]
         },
         {
@@ -393,6 +386,13 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p9"
             }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p9.json",
+              "@type": "sc:AnnotationList",
+              "label": "Annotations for page 9"
+            }
           ]
         },
         {
@@ -426,13 +426,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p10"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p10.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 10"
             }
           ]
         },
@@ -878,6 +871,13 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p21"
             }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p21.json",
+              "@type": "sc:AnnotationList",
+              "label": "Annotations for page 21"
+            }
           ]
         },
         {
@@ -911,13 +911,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p22"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p22.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 22"
             }
           ]
         },
@@ -2715,6 +2708,13 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p99"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p66.json",
+              "@type": "sc:AnnotationList",
+              "label": "Annotations for page 66"
             }
           ]
         },
