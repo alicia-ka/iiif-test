@@ -1,0 +1,98 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p66.json",
+  "@type": "sc:AnnotationList",
+  "label": "G30495-02 annotations, page 66",
+  "resources": [
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0407.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "hūsitun,",
+        "label": "name"
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p66#xywh=1110,1928,196,493",
+      "metadata": [
+        {
+          "label": "type",
+          "value": "name"
+        },
+        {
+          "label": "sourceVolume",
+          "value": "八旗氏族通譜 二 三 [G30495-03]"
+        },
+        {
+          "label": "volume",
+          "value": "巻三"
+        },
+        {
+          "label": "No.",
+          "value": "407"
+        }
+      ]
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0408.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "ajintai,",
+        "label": "name"
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p66#xywh=1348,1617,133,441",
+      "metadata": [
+        {
+          "label": "type",
+          "value": "name"
+        },
+        {
+          "label": "sourceVolume",
+          "value": "八旗氏族通譜 二 三 [G30495-03]"
+        },
+        {
+          "label": "volume",
+          "value": "巻三"
+        },
+        {
+          "label": "No.",
+          "value": "408"
+        }
+      ]
+    },
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/anno_0409.json",
+      "@type": "oa:Annotation",
+      "motivation": "oa:commenting",
+      "resource": {
+        "@type": "cnt:ContentAsText",
+        "format": "text/plain",
+        "chars": "ereci wesihun, gemu elhe taifin i forgon de, korcin i baci amasi tatafi gajiha niyalma.",
+        "label": "text"
+      },
+      "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p66#xywh=1498,1603,494,2939",
+      "metadata": [
+        {
+          "label": "type",
+          "value": "text"
+        },
+        {
+          "label": "sourceVolume",
+          "value": "八旗氏族通譜 二 三 [G30495-03]"
+        },
+        {
+          "label": "volume",
+          "value": "巻三"
+        },
+        {
+          "label": "No.",
+          "value": "409"
+        }
+      ]
+    }
+  ]
+}

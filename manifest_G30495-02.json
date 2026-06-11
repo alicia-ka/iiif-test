@@ -8,7 +8,14 @@
   "attribution": "東京大学附属図書館アジア研究図書館上廣倫理財団寄付研究部門 Uehiro Project for the Asian Research Library (U-PARL) of the University of Tokyo Library System, JAPAN",
   "logo": "https://iiif.dl.itc.u-tokyo.ac.jp/images/ut-logo.jpg",
   "related": "https://da.dl.itc.u-tokyo.ac.jp/portal/assets/35f86a28-6c28-434b-a9fb-9182b8dbf0fa",
-  "seeAlso": "https://da.dl.itc.u-tokyo.ac.jp/portal/assets/35f86a28-6c28-434b-a9fb-9182b8dbf0fa?_format=json",
+  "seeAlso": [
+    "https://da.dl.itc.u-tokyo.ac.jp/portal/assets/35f86a28-6c28-434b-a9fb-9182b8dbf0fa?_format=json",
+    {
+      "@id": "https://alicia-ka.github.io/iiif-test/annotations_index_G30495-02.json",
+      "format": "application/json",
+      "label": "Global annotation search index"
+    }
+  ],
   "within": "https://da.dl.itc.u-tokyo.ac.jp/portal/collection/g30495",
   "viewingDirection": "left-to-right",
   "metadata": [
@@ -37,8 +44,8 @@
       "value": "G30495-02-Index_ver260604-1200_巻01完了.xlsx"
     },
     {
-      "label": "Annotation mapping",
-      "value": "B 属性=label/type; E 内容=text; F IIIF page=canvas label; G IIIF xywh=final xywh"
+      "label": "Search index",
+      "value": "https://alicia-ka.github.io/iiif-test/annotations_index_G30495-02.json"
     }
   ],
   "sequences": [
@@ -151,9 +158,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p3.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p3.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 3"
+              "label": "G30495-02 annotations, page 3"
             }
           ]
         },
@@ -189,13 +196,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p4"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p4.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 4"
-            }
           ]
         },
         {
@@ -229,13 +229,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p5"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p5.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 5"
             }
           ]
         },
@@ -271,13 +264,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p6"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p6.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 6"
-            }
           ]
         },
         {
@@ -312,13 +298,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 7"
-            }
           ]
         },
         {
@@ -352,13 +331,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p8"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p8.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 8"
             }
           ]
         },
@@ -397,9 +369,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p9.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p9.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 9"
+              "label": "G30495-02 annotations, page 9"
             }
           ]
         },
@@ -469,13 +441,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p11"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p11.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 11"
-            }
           ]
         },
         {
@@ -513,9 +478,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p12.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p12.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 12"
+              "label": "G30495-02 annotations, page 12"
             }
           ]
         },
@@ -554,9 +519,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p13.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p13.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 13"
+              "label": "G30495-02 annotations, page 13"
             }
           ]
         },
@@ -595,9 +560,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p14.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p14.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 14"
+              "label": "G30495-02 annotations, page 14"
             }
           ]
         },
@@ -636,9 +601,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p15.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p15.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 15"
+              "label": "G30495-02 annotations, page 15"
             }
           ]
         },
@@ -677,9 +642,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p16.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p16.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 16"
+              "label": "G30495-02 annotations, page 16"
             }
           ]
         },
@@ -718,9 +683,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p17.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p17.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 17"
+              "label": "G30495-02 annotations, page 17"
             }
           ]
         },
@@ -759,9 +724,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p18.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p18.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 18"
+              "label": "G30495-02 annotations, page 18"
             }
           ]
         },
@@ -800,9 +765,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p19.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p19.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 19"
+              "label": "G30495-02 annotations, page 19"
             }
           ]
         },
@@ -841,9 +806,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p20.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p20.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 20"
+              "label": "G30495-02 annotations, page 20"
             }
           ]
         },
@@ -882,9 +847,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p21.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p21.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 21"
+              "label": "G30495-02 annotations, page 21"
             }
           ]
         },
@@ -919,6 +884,13 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p22"
+            }
+          ],
+          "otherContent": [
+            {
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p22.json",
+              "@type": "sc:AnnotationList",
+              "label": "G30495-02 annotations, page 22"
             }
           ]
         },
@@ -957,9 +929,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p23.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p23.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 23"
+              "label": "G30495-02 annotations, page 23"
             }
           ]
         },
@@ -998,9 +970,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p24.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p24.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 24"
+              "label": "G30495-02 annotations, page 24"
             }
           ]
         },
@@ -1039,9 +1011,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p25.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p25.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 25"
+              "label": "G30495-02 annotations, page 25"
             }
           ]
         },
@@ -1080,9 +1052,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p26.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p26.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 26"
+              "label": "G30495-02 annotations, page 26"
             }
           ]
         },
@@ -1121,9 +1093,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p27.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p27.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 27"
+              "label": "G30495-02 annotations, page 27"
             }
           ]
         },
@@ -1162,9 +1134,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p28.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p28.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 28"
+              "label": "G30495-02 annotations, page 28"
             }
           ]
         },
@@ -1203,9 +1175,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p29.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p29.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 29"
+              "label": "G30495-02 annotations, page 29"
             }
           ]
         },
@@ -1244,9 +1216,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p30.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p30.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 30"
+              "label": "G30495-02 annotations, page 30"
             }
           ]
         },
@@ -1285,9 +1257,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p31.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p31.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 31"
+              "label": "G30495-02 annotations, page 31"
             }
           ]
         },
@@ -1326,9 +1298,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p32.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p32.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 32"
+              "label": "G30495-02 annotations, page 32"
             }
           ]
         },
@@ -1367,9 +1339,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p33.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p33.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 33"
+              "label": "G30495-02 annotations, page 33"
             }
           ]
         },
@@ -1408,9 +1380,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p34.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p34.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 34"
+              "label": "G30495-02 annotations, page 34"
             }
           ]
         },
@@ -1449,9 +1421,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p35.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p35.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 35"
+              "label": "G30495-02 annotations, page 35"
             }
           ]
         },
@@ -1490,9 +1462,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p36.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p36.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 36"
+              "label": "G30495-02 annotations, page 36"
             }
           ]
         },
@@ -1531,9 +1503,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p37.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p37.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 37"
+              "label": "G30495-02 annotations, page 37"
             }
           ]
         },
@@ -1572,9 +1544,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p38.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p38.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 38"
+              "label": "G30495-02 annotations, page 38"
             }
           ]
         },
@@ -1613,9 +1585,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p39.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p39.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 39"
+              "label": "G30495-02 annotations, page 39"
             }
           ]
         },
@@ -1654,9 +1626,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p40.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p40.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 40"
+              "label": "G30495-02 annotations, page 40"
             }
           ]
         },
@@ -1695,9 +1667,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p41.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p41.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 41"
+              "label": "G30495-02 annotations, page 41"
             }
           ]
         },
@@ -1736,9 +1708,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p42.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p42.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 42"
+              "label": "G30495-02 annotations, page 42"
             }
           ]
         },
@@ -1777,9 +1749,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p43.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p43.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 43"
+              "label": "G30495-02 annotations, page 43"
             }
           ]
         },
@@ -1818,9 +1790,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p44.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p44.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 44"
+              "label": "G30495-02 annotations, page 44"
             }
           ]
         },
@@ -1859,9 +1831,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p45.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p45.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 45"
+              "label": "G30495-02 annotations, page 45"
             }
           ]
         },
@@ -1900,9 +1872,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p46.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p46.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 46"
+              "label": "G30495-02 annotations, page 46"
             }
           ]
         },
@@ -1938,13 +1910,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p47"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p47.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 47"
-            }
           ]
         },
         {
@@ -1978,13 +1943,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p48"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 48"
             }
           ]
         },
@@ -2020,13 +1978,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p49"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p49.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 49"
-            }
           ]
         },
         {
@@ -2061,13 +2012,6 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p50"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p50.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 50"
-            }
           ]
         },
         {
@@ -2101,13 +2045,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p51"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p51.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 51"
             }
           ]
         },
@@ -2146,9 +2083,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p52.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p52.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 52"
+              "label": "G30495-02 annotations, page 52"
             }
           ]
         },
@@ -2187,9 +2124,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p53.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p53.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 53"
+              "label": "G30495-02 annotations, page 53"
             }
           ]
         },
@@ -2228,9 +2165,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p54.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p54.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 54"
+              "label": "G30495-02 annotations, page 54"
             }
           ]
         },
@@ -2269,9 +2206,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p55.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p55.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 55"
+              "label": "G30495-02 annotations, page 55"
             }
           ]
         },
@@ -2310,9 +2247,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p56.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p56.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 56"
+              "label": "G30495-02 annotations, page 56"
             }
           ]
         },
@@ -2351,9 +2288,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p57.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p57.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 57"
+              "label": "G30495-02 annotations, page 57"
             }
           ]
         },
@@ -2392,9 +2329,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p58.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p58.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 58"
+              "label": "G30495-02 annotations, page 58"
             }
           ]
         },
@@ -2433,9 +2370,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p59.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p59.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 59"
+              "label": "G30495-02 annotations, page 59"
             }
           ]
         },
@@ -2474,9 +2411,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p60.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p60.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 60"
+              "label": "G30495-02 annotations, page 60"
             }
           ]
         },
@@ -2515,9 +2452,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p61.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p61.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 61"
+              "label": "G30495-02 annotations, page 61"
             }
           ]
         },
@@ -2556,9 +2493,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p62.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p62.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 62"
+              "label": "G30495-02 annotations, page 62"
             }
           ]
         },
@@ -2597,9 +2534,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p63.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p63.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 63"
+              "label": "G30495-02 annotations, page 63"
             }
           ]
         },
@@ -2638,9 +2575,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p64.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p64.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 64"
+              "label": "G30495-02 annotations, page 64"
             }
           ]
         },
@@ -2679,9 +2616,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p65.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p65.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 65"
+              "label": "G30495-02 annotations, page 65"
             }
           ]
         },
@@ -2720,9 +2657,9 @@
           ],
           "otherContent": [
             {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p66.json",
+              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/list_p66.json",
               "@type": "sc:AnnotationList",
-              "label": "Annotations for page 66"
+              "label": "G30495-02 annotations, page 66"
             }
           ]
         },

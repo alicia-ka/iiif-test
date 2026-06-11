@@ -1,437 +1,438 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>G30495-02 IIIF annotations</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+  <title>G30495-02 IIIF Annotation Viewer</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/5.0.1/openseadragon.min.js"></script>
   <style>
     :root {
       color-scheme: light;
-      font-family: "Segoe UI", Arial, sans-serif;
-      background: #f5f7f9;
-      color: #1d2730;
+      --bg: #f7f5f0;
+      --panel: #ffffff;
+      --ink: #202124;
+      --muted: #62615d;
+      --line: #d8d4cb;
+      --accent: #116c7b;
+      --selected: #101010;
     }
     * { box-sizing: border-box; }
-    body { margin: 0; }
-    header {
+    body {
+      margin: 0;
+      font-family: Arial, "Noto Sans", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    .app {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 390px;
+      height: 100vh;
+    }
+    .viewerShell {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-width: 0;
+      border-right: 1px solid var(--line);
+    }
+    .toolbar {
       display: flex;
       align-items: center;
       gap: 10px;
-      min-height: 58px;
-      padding: 10px 16px;
-      border-bottom: 1px solid #d7dee5;
-      background: #ffffff;
+      padding: 10px 12px;
+      background: #fffdf8;
+      border-bottom: 1px solid var(--line);
+      min-height: 54px;
+      flex-wrap: wrap;
     }
-    h1 {
-      margin: 0;
-      font-size: 18px;
-      font-weight: 650;
-      white-space: nowrap;
-    }
-    select, button, input {
-      height: 34px;
-      border: 1px solid #bac6d1;
-      border-radius: 6px;
-      background: #fff;
-      color: #1d2730;
-      font-size: 14px;
-    }
-    button { padding: 0 10px; cursor: pointer; }
-    input { padding: 0 10px; }
-    .toggle {
+    .toolbar label, .toggle {
+      font-size: 13px;
+      color: var(--muted);
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      min-height: 34px;
-      padding: 0 8px;
-      border: 1px solid #bac6d1;
-      border-radius: 6px;
-      background: #fff;
-      font-size: 14px;
       white-space: nowrap;
     }
-    .toggle input {
-      width: 16px;
-      height: 16px;
-      margin: 0;
-      padding: 0;
+    select, input[type="search"] {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--ink);
+      border-radius: 6px;
+      padding: 7px 9px;
+      min-height: 34px;
+      font-size: 14px;
     }
-    main {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 360px;
-      height: calc(100vh - 58px);
-    }
-    #viewer {
-      min-height: 480px;
-      background: #111820;
-    }
-    aside {
-      overflow: auto;
-      border-left: 1px solid #d7dee5;
-      background: #ffffff;
-    }
-    .summary {
-      position: sticky;
-      top: 0;
-      z-index: 2;
-      display: grid;
-      gap: 10px;
-      padding: 12px 16px;
-      border-bottom: 1px solid #e2e7ec;
-      background: #ffffff;
-    }
-    .summary-title {
-      font-weight: 650;
-    }
-    #search {
-      width: 100%;
-    }
-    .item {
-      display: grid;
-      gap: 6px;
-      padding: 12px 16px;
-      border-bottom: 1px solid #edf0f3;
+    button {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--ink);
+      border-radius: 6px;
+      padding: 7px 10px;
+      min-height: 34px;
+      font-size: 14px;
       cursor: pointer;
     }
-    .item:hover { background: #f3f7fb; }
-    .item.selected {
-      background: #edf6ff;
-      box-shadow: inset 3px 0 0 #54B5E2;
+    button:hover { border-color: var(--accent); }
+    #openseadragon {
+      width: 100%;
+      height: 100%;
+      background: #e9e4d9;
     }
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      width: fit-content;
-      padding: 2px 7px;
-      border-radius: 999px;
-      color: #1d2730;
-      background: #f2f4f6;
+    aside {
+      min-width: 0;
+      background: var(--panel);
+      display: grid;
+      grid-template-rows: auto auto minmax(0, 1fr);
+      height: 100vh;
+    }
+    .sideHeader {
+      padding: 14px 14px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 18px;
+      line-height: 1.25;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+    .count {
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .searchBox {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 8px;
+    }
+    #searchInput { width: 100%; }
+    .resultsNote {
       font-size: 12px;
-      line-height: 1.4;
+      color: var(--muted);
+      min-height: 16px;
     }
-    .tag::before {
-      width: 8px;
-      height: 8px;
-      border-radius: 999px;
-      background: var(--tag-color, #c8d0d8);
-      content: "";
+    #annotationList {
+      overflow: auto;
+      padding: 8px;
+    }
+    .item {
+      border-radius: 7px;
+      padding: 9px 10px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      display: grid;
+      gap: 5px;
+    }
+    .item + .item { margin-top: 5px; }
+    .item:hover { background: #f6f8f8; }
+    .item.selected {
+      border-color: var(--selected);
+      background: #fffaf0;
+      box-shadow: 0 0 0 2px rgba(17, 108, 123, 0.16);
     }
     .meta {
-      color: #607080;
+      display: flex;
+      gap: 7px;
+      align-items: center;
+      flex-wrap: wrap;
       font-size: 12px;
-      line-height: 1.3;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+    .badge {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+      border: 1px solid rgba(0,0,0,0.18);
+      flex: 0 0 10px;
     }
     .text {
       font-size: 14px;
-      line-height: 1.45;
+      line-height: 1.42;
       overflow-wrap: anywhere;
     }
-    .overlay {
-      border: 0;
-      border-radius: 2px;
-      background: var(--overlay-color, rgba(200, 208, 216, .32));
-      cursor: pointer;
+    .volume {
+      font-size: 12px;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+    .annoOverlay {
       mix-blend-mode: multiply;
+      border: 0;
+      cursor: pointer;
       pointer-events: auto;
-      transition: opacity .16s ease, filter .16s ease, box-shadow .16s ease;
+      outline: 0 solid transparent;
     }
-    .overlay.active {
-      filter: saturate(1.25) brightness(1.05);
-      outline: 3px solid rgba(17, 24, 32, .74);
-      outline-offset: 1px;
-      box-shadow: 0 0 18px rgba(17, 24, 32, .18);
+    .annoOverlay.selected {
+      outline: 3px solid rgba(20, 20, 20, 0.72);
+      outline-offset: 0;
+      box-shadow: inset 0 0 0 2px rgba(255,255,255,0.82);
     }
-    .overlays-hidden .overlay {
-      opacity: 0;
-      pointer-events: none;
+    .hiddenOverlays .annoOverlay { display: none; }
+    mark {
+      background: #fff0a6;
+      color: inherit;
+      padding: 0 1px;
     }
     @media (max-width: 900px) {
-      main { grid-template-columns: 1fr; grid-template-rows: minmax(360px, 62vh) auto; }
-      aside { border-left: 0; border-top: 1px solid #d7dee5; }
-      header { flex-wrap: wrap; }
-      h1 { white-space: normal; }
+      body { overflow: auto; }
+      .app {
+        grid-template-columns: 1fr;
+        grid-template-rows: 60vh 40vh;
+        height: 100vh;
+      }
+      .viewerShell { border-right: 0; border-bottom: 1px solid var(--line); }
+      aside { height: 40vh; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>G30495-02 annotations</h1>
-    <button id="prev" type="button">Prev</button>
-    <select id="page"></select>
-    <button id="next" type="button">Next</button>
-    <label class="toggle"><input id="toggle-annotations" type="checkbox" checked>Annotations</label>
-    <span id="status"></span>
-  </header>
-  <main>
-    <div id="viewer"></div>
-    <aside>
-      <div class="summary">
-        <div class="summary-title" id="summary">Loading annotations...</div>
-        <input id="search" type="search" placeholder="Search all annotations">
+  <main class="app">
+    <section class="viewerShell">
+      <div class="toolbar">
+        <label>Page <select id="pageSelect"></select></label>
+        <button id="prevPage" type="button" title="Previous page">‹</button>
+        <button id="nextPage" type="button" title="Next page">›</button>
+        <label class="toggle"><input id="toggleAnnotations" type="checkbox" checked> annotations</label>
       </div>
-      <div id="list"></div>
+      <div id="openseadragon"></div>
+    </section>
+    <aside>
+      <div class="sideHeader">
+        <h1>G30495-02 annotations</h1>
+        <div class="count" id="count"></div>
+      </div>
+      <div class="searchBox">
+        <input id="searchInput" type="search" placeholder="Search all annotations">
+        <div class="resultsNote" id="resultsNote"></div>
+      </div>
+      <div id="annotationList"></div>
     </aside>
   </main>
   <script>
-    const manifestUrl = "manifest_G30495-02.json";
-    const indexUrl = "annotations_index_G30495-02.json";
-    const colors = {
-      gvsa: "#E6DACC",
-      name: "#54B5E2",
-      location: "#1ED72C",
-      hala: "#A935FF",
-      title: "#BAA992",
-      group: "#F6B06E"
-    };
-    const defaultColor = "#C8D0D8";
-    const viewer = OpenSeadragon({
-      id: "viewer",
-      prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/",
-      showNavigator: true,
-      gestureSettingsMouse: { clickToZoom: false }
-    });
-    let manifest;
+    const MANIFEST_URL = 'manifest_G30495-02.json';
+    const INDEX_URL = 'annotations_index_G30495-02.json';
+    const INFO = "Annotation Build Notes\n\nManifest URL:\nhttps://da.dl.itc.u-tokyo.ac.jp/portal/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/manifest\n\nUse columns:\nA sourceVolume\nB category\nE content\nF IIIF_page\nG IIIF_xywh\nH volume\n\nIgnore columns:\nC PDF_page\nD PDF_coordinates\n\nMapping rules:\nMapping rules:\n- Column A sourceVolume should be preserved as source/reference metadata.\n- Column B category should be used as the annotation label/type.\n- Column E content should be used as the annotation text.\n- Column F IIIF_page should be used as-is.\n- Column G IIIF_xywh should be used as-is.\n- Do not recalculate IIIF_page or IIIF_xywh from columns C or D.\n- Columns C and D are source/reference data only.\n- Column H volume should be preserved as source/reference metadata.\n- Column H volume should be displayed in the viewer annotation list.\n\nCoordinate format:\n- Column G values are final IIIF canvas coordinates.\n\"- Format: xywh=x,y,w,h\"\n- Values are integer pixels.\n\nPage rule:\n- Viewer canvas label = IIIF page.\n- Example: IIIF page 3 maps to canvas label [3].\n\nViewer rules:\n- Generate an HTML viewer using OpenSeadragon.\n- Use annotations_index.json for global search.\n- Do not fetch all annotation list files for search.\n- Add an annotation visibility toggle.\n\"- Show annotation overlays as soft translucent fills, without borders by default.\"\n- Use mix-blend-mode: multiply for annotation overlays.\n\"- Use stronger opacity for title, text, and gūsa annotations.\"\n- Selecting an annotation should not change the current zoom level.\n\nColor code:\ngūsa = #E6DACC\nname = #54B5E2\ninline_name = #adcbdc\nlocation = #1ED72C\nhala = #A935FF\ntitle = #BAA992\ngroup = #F6B06E\ntext = #FBC956\n\nOverlay opacity:\ndefault = 0.34\ntitle = 0.58\ntext = 0.58\ngūsa = 0.99\ninline_name = 0.80\n\nViewer interaction:\n- Clicking an annotation overlay on the image should scroll the right-side annotation list to the corresponding text item.\n- The corresponding text item should be visually highlighted.\n- Clicking a text item in the annotation list should highlight the corresponding overlay on the image.\n- Clicking a text item should not zoom or pan the image.\n- Clicking an overlay should not leave the image in a dragging or panning state.\n- The selected overlay may show a subtle outline or highlight so that the selected annotation is clear.\n\nSearch index:\n- Create annotations_index_[ID].json.\n\"- Include id, page, canvasLabel, canvasId, type, text, xywh, target, annotationList, sourceRow, sourceVolume, volume.\"\n\"- In the viewer annotation list, display sourceRow as \"\"No.\"\", not \"\"row\"\".\"\n\"- In the viewer annotation list, display Column H volume.\"\n\nOutput files:\nmanifest = manifest_[ID].json\nviewer = viewer_[ID].html\nannotation folder = annotations/[ID]/\nsearch index = annotations_index_[ID].json\n";
+    let manifest, indexData, annotations = [];
     let canvases = [];
-    let indexItems = [];
-    let itemsByCanvasLabel = new Map();
-    let canvasIndexByLabel = new Map();
-    let currentIndex = 0;
-    let annotations = [];
-    let listElementsById = new Map();
-    let pendingFocusId = null;
+    let currentPageIndex = 0;
+    let selectedId = null;
+    let viewer;
+    const overlayById = new Map();
 
-    const pageSelect = document.querySelector("#page");
-    const status = document.querySelector("#status");
-    const summary = document.querySelector("#summary");
-    const sidebar = document.querySelector("aside");
-    const list = document.querySelector("#list");
-    const search = document.querySelector("#search");
-    const toggleAnnotations = document.querySelector("#toggle-annotations");
+    const pageSelect = document.getElementById('pageSelect');
+    const annotationList = document.getElementById('annotationList');
+    const searchInput = document.getElementById('searchInput');
+    const resultsNote = document.getElementById('resultsNote');
+    const count = document.getElementById('count');
+    const toggleAnnotations = document.getElementById('toggleAnnotations');
+    const osdElement = document.getElementById('openseadragon');
 
-    function pageLabel(canvas, index) {
-      return canvas.label || `Page ${index + 1}`;
+    function labelToText(label) {
+      if (typeof label === 'string') return label;
+      if (label && label['@none']) return label['@none'].join(' ');
+      if (label && typeof label === 'object') return Object.values(label).flat().join(' ');
+      return '';
     }
 
-    function parseXywh(value) {
-      const match = String(value).match(/xywh=(\d+),(\d+),(\d+),(\d+)/);
-      return match ? match.slice(1).map(Number) : null;
+    function canvasPage(canvas) {
+      return labelToText(canvas.label).replace(/^\[/, '').replace(/\]$/, '');
     }
 
-    function colorFor(type) {
-      return colors[String(type || "").toLowerCase()] || defaultColor;
+    function tileSourceFor(canvas) {
+      const image = canvas.images && canvas.images[0] && canvas.images[0].resource;
+      const service = image && image.service;
+      if (service && service['@id']) return service['@id'] + '/info.json';
+      return { type: 'image', url: image['@id'] };
     }
 
-    function alphaFor(type) {
-      return ["title", "text"].includes(String(type || "").toLowerCase()) ? .58 : .34;
+    function pageAnnotations() {
+      const page = canvasPage(canvases[currentPageIndex]);
+      const q = searchInput.value.trim().toLowerCase();
+      if (q) {
+        return annotations.filter(a =>
+          [a.text, a.type, a.volume, a.sourceVolume, a.canvasLabel, String(a.sourceRow)]
+            .some(v => String(v || '').toLowerCase().includes(q))
+        );
+      }
+      return annotations.filter(a => String(a.page) === String(page));
     }
 
-    function rgba(hex, alpha) {
-      const value = hex.replace("#", "");
-      const r = parseInt(value.slice(0, 2), 16);
-      const g = parseInt(value.slice(2, 4), 16);
-      const b = parseInt(value.slice(4, 6), 16);
-      return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    function allSearchMatches() {
+      const q = searchInput.value.trim().toLowerCase();
+      if (!q) return [];
+      return annotations.filter(a =>
+        [a.text, a.type, a.volume, a.sourceVolume, a.canvasLabel, String(a.sourceRow)]
+          .some(v => String(v || '').toLowerCase().includes(q))
+      );
     }
 
-    function clearOverlays() {
+    function escapeHtml(value) {
+      return String(value ?? '').replace(/[&<>"']/g, ch => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[ch]));
+    }
+
+    function highlighted(text) {
+      const q = searchInput.value.trim();
+      if (!q) return escapeHtml(text);
+      const safe = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return escapeHtml(text).replace(new RegExp(safe, 'ig'), m => `<mark>${m}</mark>`);
+    }
+
+    function renderList() {
+      const rows = pageAnnotations();
+      const page = canvasPage(canvases[currentPageIndex]);
+      count.textContent = searchInput.value.trim()
+        ? `Global search · ${rows.length} matches`
+        : `Page ${page} · ${rows.length} visible annotations`;
+      const globalMatches = allSearchMatches();
+      resultsNote.textContent = searchInput.value.trim()
+        ? `${globalMatches.length} global matches in annotations_index_G30495-02.json`
+        : 'Search uses the global index only';
+      annotationList.innerHTML = rows.map(a => `
+        <div class="item${a.id === selectedId ? ' selected' : ''}" data-id="${escapeHtml(a.id)}">
+          <div class="meta">
+            <span class="badge" style="background:${escapeHtml(a.color)}"></span>
+            <strong>${escapeHtml(a.type)}</strong>
+            <span>Page ${escapeHtml(a.page)} · No. ${escapeHtml(a.sourceRow)}</span>
+          </div>
+          <div class="text">${highlighted(a.text)}</div>
+          <div class="volume">${escapeHtml(a.volume || '')}</div>
+        </div>`).join('');
+      annotationList.querySelectorAll('.item').forEach(item => {
+        item.addEventListener('click', evt => {
+          evt.preventDefault();
+          evt.stopPropagation();
+          selectAnnotation(item.dataset.id, { scrollList: false });
+        });
+      });
+    }
+
+    function drawOverlays() {
+      overlayById.clear();
       viewer.clearOverlays();
-      annotations = [];
-      list.replaceChildren();
-    }
-
-    function focusAnnotation(index, options = {}) {
-      const annotation = annotations[index];
-      if (!annotation) return;
-      document.querySelectorAll(".overlay").forEach(el => el.classList.remove("active"));
-      annotation.element.classList.add("active");
-      if (options.zoom) {
-        viewer.viewport.fitBounds(annotation.rect, true);
-      }
-      if (options.scrollList) {
-        jumpToListItem(annotation.item.id);
-      }
-    }
-
-    function focusAnnotationById(id, options = {}) {
-      const index = annotations.findIndex(item => item.item.id === id);
-      if (index >= 0) focusAnnotation(index, options);
-    }
-
-    function applyOverlayVisibility() {
-      document.body.classList.toggle("overlays-hidden", !toggleAnnotations.checked);
-    }
-
-    function renderList(items, mode) {
-      list.replaceChildren();
-      listElementsById = new Map();
-      items.forEach((item, idx) => {
-        const element = document.createElement("div");
-        element.className = "item";
-        element.dataset.annotationId = item.id;
-        element.innerHTML = `<span class="tag"></span><span class="meta"></span><span class="text"></span>`;
-        const color = colorFor(item.type);
-        element.querySelector(".tag").textContent = item.type || "annotation";
-        element.querySelector(".tag").style.setProperty("--tag-color", color);
-        element.querySelector(".meta").textContent = `Page ${item.page} · No. ${item.sourceRow}`;
-        element.querySelector(".text").textContent = item.text;
-        element.addEventListener("click", async () => {
-          if (mode === "search") {
-            pendingFocusId = item.id;
-            await showPage(canvasIndexByLabel.get(item.canvasLabel) ?? currentIndex);
-          } else {
-            selectListItem(item.id, false);
-            focusAnnotation(idx);
-          }
-        });
-        listElementsById.set(item.id, element);
-        list.appendChild(element);
-      });
-    }
-
-    function selectListItem(id, shouldScroll) {
-      document.querySelectorAll(".item.selected").forEach(el => el.classList.remove("selected"));
-      const element = listElementsById.get(id);
-      if (!element) return;
-      element.classList.add("selected");
-      if (!shouldScroll) return;
-      const sidebarRect = sidebar.getBoundingClientRect();
-      const elementRect = element.getBoundingClientRect();
-      sidebar.scrollTo({
-        top: sidebar.scrollTop + elementRect.top - sidebarRect.top - (sidebar.clientHeight / 2) + (element.clientHeight / 2),
-        behavior: "smooth"
-      });
-    }
-
-    function jumpToListItem(id) {
-      if (search.value.trim()) {
-        search.value = "";
-        renderCurrentPageList();
-      }
-      selectListItem(id, true);
-    }
-
-    function renderSearchResults() {
-      const query = search.value.trim().toLowerCase();
-      if (!query) {
-        renderCurrentPageList();
-        return;
-      }
-      const results = indexItems.filter(item => {
-        return [item.text, item.type, item.page, item.canvasLabel]
-          .some(value => String(value || "").toLowerCase().includes(query));
-      });
-      summary.textContent = `${results.length} search results`;
-      renderList(results.slice(0, 500), "search");
-    }
-
-    function renderCurrentPageList() {
-      const canvas = canvases[currentIndex];
-      const pageItems = itemsByCanvasLabel.get(pageLabel(canvas, currentIndex)) || [];
-      summary.textContent = `${pageLabel(canvas, currentIndex)}: ${pageItems.length} annotations`;
-      renderList(pageItems, "page");
-    }
-
-    async function showPage(index) {
-      currentIndex = Math.max(0, Math.min(index, canvases.length - 1));
-      const canvas = canvases[currentIndex];
-      pageSelect.value = String(currentIndex);
-      status.textContent = `${currentIndex + 1} / ${canvases.length}`;
-      clearOverlays();
-      const pageItems = itemsByCanvasLabel.get(pageLabel(canvas, currentIndex)) || [];
-      viewer.addOnceHandler("open", () => {
-        pageItems.forEach((item, idx) => {
-          const xywh = parseXywh(item.xywh);
-          if (!xywh) return;
-          const [x, y, w, h] = xywh;
-          const element = document.createElement("div");
-          element.className = "overlay";
-          element.title = item.text;
-          element.style.setProperty("--overlay-color", rgba(colorFor(item.type), alphaFor(item.type)));
-          const rect = viewer.viewport.imageToViewportRectangle(x, y, w, h);
-          viewer.addOverlay({ element, location: rect });
-          annotations.push({ item, element, rect });
-          const handleOverlayClick = event => {
-            event?.preventDefault?.();
-            event?.stopPropagation?.();
-            focusAnnotation(idx, { scrollList: true });
-          };
-          const stopViewerGesture = event => {
-            event.preventDefault();
-            event.stopPropagation();
-          };
-          ["pointerdown", "pointerup", "mousedown", "mouseup", "touchstart", "touchend"].forEach(type => {
-            element.addEventListener(type, stopViewerGesture, { passive: false });
+      const page = canvasPage(canvases[currentPageIndex]);
+      annotations.filter(a => String(a.page) === String(page)).forEach(a => {
+        const el = document.createElement('div');
+        el.className = 'annoOverlay' + (a.id === selectedId ? ' selected' : '');
+        el.dataset.id = a.id;
+        el.title = `${a.type} · Page ${a.page} · No. ${a.sourceRow}`;
+        el.style.background = a.color;
+        el.style.opacity = a.opacity;
+        ['pointerdown', 'pointermove', 'pointerup', 'mousedown', 'mouseup'].forEach(type => {
+          el.addEventListener(type, evt => {
+            evt.preventDefault();
+            evt.stopPropagation();
           });
-          element.addEventListener("click", handleOverlayClick);
-          new OpenSeadragon.MouseTracker({
-            element,
-            pressHandler: event => {
-              event.preventDefaultAction = true;
-              event.preventGesture = true;
-            },
-            dragHandler: event => {
-              event.preventDefaultAction = true;
-              event.preventGesture = true;
-            },
-            releaseHandler: event => {
-              event.preventDefaultAction = true;
-              event.preventGesture = true;
-            },
-            clickHandler: event => {
-              event.preventDefaultAction = true;
-              event.preventGesture = true;
-              handleOverlayClick(event.originalEvent);
-            }
-          }).setTracking(true);
         });
-        applyOverlayVisibility();
-        if (search.value.trim()) renderSearchResults();
-        else renderCurrentPageList();
-        if (pendingFocusId) {
-          focusAnnotationById(pendingFocusId, { scrollList: true });
-          pendingFocusId = null;
-        }
+        el.addEventListener('click', evt => {
+          evt.preventDefault();
+          evt.stopPropagation();
+          selectAnnotation(a.id, { scrollList: true });
+        });
+        const rect = new OpenSeadragon.Rect(a.xywhParts.x, a.xywhParts.y, a.xywhParts.w, a.xywhParts.h);
+        viewer.addOverlay({ element: el, location: rect });
+        overlayById.set(a.id, el);
       });
-      const image = canvas.images[0].resource;
-      const service = image.service["@id"];
-      viewer.open(`${service}/info.json`);
+      osdElement.classList.toggle('hiddenOverlays', !toggleAnnotations.checked);
+    }
+
+    function refreshSelection(scrollList) {
+      document.querySelectorAll('.item.selected').forEach(el => el.classList.remove('selected'));
+      document.querySelectorAll('.annoOverlay.selected').forEach(el => el.classList.remove('selected'));
+      if (!selectedId) return;
+      const item = annotationList.querySelector(`.item[data-id="${CSS.escape(selectedId)}"]`);
+      const overlay = overlayById.get(selectedId);
+      if (item) {
+        item.classList.add('selected');
+        if (scrollList) item.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      }
+      if (overlay) overlay.classList.add('selected');
+    }
+
+    function selectAnnotation(id, opts = {}) {
+      selectedId = id;
+      const annotation = annotations.find(a => a.id === id);
+      if (annotation && String(annotation.page) !== String(canvasPage(canvases[currentPageIndex]))) {
+        const idx = canvases.findIndex(c => String(canvasPage(c)) === String(annotation.page));
+        if (idx >= 0) {
+          currentPageIndex = idx;
+          openCurrentPage({ preserveZoom: true, afterOpen: () => {
+            renderList();
+            drawOverlays();
+            refreshSelection(opts.scrollList);
+          }});
+          return;
+        }
+      }
+      renderList();
+      refreshSelection(opts.scrollList);
+    }
+
+    function openCurrentPage(options = {}) {
+      const currentZoom = viewer && viewer.viewport ? viewer.viewport.getZoom(true) : null;
+      const center = viewer && viewer.viewport ? viewer.viewport.getCenter(true) : null;
+      pageSelect.value = String(currentPageIndex);
+      viewer.open(tileSourceFor(canvases[currentPageIndex]));
+      viewer.addOnceHandler('open', () => {
+        if (options.preserveZoom && currentZoom && center) {
+          viewer.viewport.zoomTo(currentZoom, null, true);
+          viewer.viewport.panTo(center, true);
+        }
+        drawOverlays();
+        renderList();
+        if (options.afterOpen) options.afterOpen();
+      });
+    }
+
+    function changePage(delta) {
+      currentPageIndex = Math.max(0, Math.min(canvases.length - 1, currentPageIndex + delta));
+      selectedId = null;
+      openCurrentPage();
     }
 
     async function init() {
-      const [manifestResponse, indexResponse] = await Promise.all([
-        fetch(manifestUrl),
-        fetch(indexUrl)
+      [manifest, indexData] = await Promise.all([
+        fetch(MANIFEST_URL).then(r => r.json()),
+        fetch(INDEX_URL).then(r => r.json())
       ]);
-      manifest = await manifestResponse.json();
-      const index = await indexResponse.json();
-      indexItems = index.items || [];
       canvases = manifest.sequences[0].canvases;
-      canvases.forEach((canvas, index) => {
-        const option = document.createElement("option");
-        option.value = String(index);
-        option.textContent = pageLabel(canvas, index);
-        pageSelect.appendChild(option);
-        canvasIndexByLabel.set(pageLabel(canvas, index), index);
+      annotations = indexData.annotations;
+      pageSelect.innerHTML = canvases.map((c, idx) => `<option value="${idx}">${escapeHtml(labelToText(c.label))}</option>`).join('');
+      viewer = OpenSeadragon({
+        id: 'openseadragon',
+        prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/5.0.1/images/',
+        showNavigator: true,
+        preserveViewport: true,
+        visibilityRatio: 0.05,
+        minZoomLevel: 0.25,
+        defaultZoomLevel: 0,
+        gestureSettingsMouse: { clickToZoom: false },
       });
-      itemsByCanvasLabel = indexItems.reduce((map, item) => {
-        if (!map.has(item.canvasLabel)) map.set(item.canvasLabel, []);
-        map.get(item.canvasLabel).push(item);
-        return map;
-      }, new Map());
-      pageSelect.addEventListener("change", event => showPage(Number(event.target.value)));
-      document.querySelector("#prev").addEventListener("click", () => showPage(currentIndex - 1));
-      document.querySelector("#next").addEventListener("click", () => showPage(currentIndex + 1));
-      toggleAnnotations.addEventListener("change", applyOverlayVisibility);
-      search.addEventListener("input", renderSearchResults);
-      const firstAnnotated = canvases.findIndex(canvas => canvas.otherContent && canvas.otherContent.length);
-      await showPage(firstAnnotated >= 0 ? firstAnnotated : 0);
+      pageSelect.addEventListener('change', () => {
+        currentPageIndex = Number(pageSelect.value);
+        selectedId = null;
+        openCurrentPage();
+      });
+      document.getElementById('prevPage').addEventListener('click', () => changePage(-1));
+      document.getElementById('nextPage').addEventListener('click', () => changePage(1));
+      toggleAnnotations.addEventListener('change', () => {
+        osdElement.classList.toggle('hiddenOverlays', !toggleAnnotations.checked);
+      });
+      searchInput.addEventListener('input', () => {
+        renderList();
+        refreshSelection(false);
+      });
+      openCurrentPage();
     }
 
-    init().catch(error => {
-      summary.textContent = "Failed to load viewer";
-      console.error(error);
+    init().catch(err => {
+      annotationList.innerHTML = `<div class="item"><div class="text">Viewer load error: ${escapeHtml(err.message)}</div></div>`;
+      console.error(err);
     });
   </script>
 </body>
