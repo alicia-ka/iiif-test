@@ -134,6 +134,7 @@
       background: var(--overlay-color, rgba(200, 208, 216, .32));
       cursor: pointer;
       mix-blend-mode: multiply;
+      pointer-events: auto;
       transition: opacity .16s ease, filter .16s ease, box-shadow .16s ease;
     }
     .overlay.active {
@@ -202,6 +203,7 @@
     const pageSelect = document.querySelector("#page");
     const status = document.querySelector("#status");
     const summary = document.querySelector("#summary");
+    const sidebar = document.querySelector("aside");
     const list = document.querySelector("#list");
     const search = document.querySelector("#search");
     const toggleAnnotations = document.querySelector("#toggle-annotations");
@@ -292,7 +294,12 @@
       const element = listElementsById.get(id);
       if (!element) return;
       element.classList.add("selected");
-      element.scrollIntoView({ block: "center", behavior: "smooth" });
+      const sidebarRect = sidebar.getBoundingClientRect();
+      const elementRect = element.getBoundingClientRect();
+      sidebar.scrollTo({
+        top: sidebar.scrollTop + elementRect.top - sidebarRect.top - (sidebar.clientHeight / 2) + (element.clientHeight / 2),
+        behavior: "smooth"
+      });
     }
 
     function renderSearchResults() {
@@ -335,7 +342,19 @@
           const rect = viewer.viewport.imageToViewportRectangle(x, y, w, h);
           viewer.addOverlay({ element, location: rect });
           annotations.push({ item, element, rect });
-          element.addEventListener("click", () => focusAnnotation(idx, { scrollList: true }));
+          const handleOverlayClick = event => {
+            event?.preventDefault?.();
+            event?.stopPropagation?.();
+            focusAnnotation(idx, { scrollList: true });
+          };
+          element.addEventListener("click", handleOverlayClick);
+          new OpenSeadragon.MouseTracker({
+            element,
+            clickHandler: event => {
+              event.preventDefaultAction = true;
+              handleOverlayClick(event.originalEvent);
+            }
+          }).setTracking(true);
         });
         applyOverlayVisibility();
         if (search.value.trim()) renderSearchResults();
