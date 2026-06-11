@@ -35,6 +35,11 @@
       border-right: 1px solid var(--line);
       background: #1f211f;
     }
+    .viewerArea {
+      position: relative;
+      min-width: 0;
+      height: calc(100vh - 52px);
+    }
     .toolbar {
       display: flex;
       align-items: center;
@@ -73,8 +78,32 @@
     }
     #viewer {
       width: 100%;
-      height: calc(100vh - 52px);
+      height: 100%;
       background: #151715;
+    }
+    .image-nav {
+      position: absolute;
+      top: 50%;
+      z-index: 20;
+      width: 44px;
+      height: 64px;
+      transform: translateY(-50%);
+      border: 1px solid rgba(255,255,255,0.42);
+      border-radius: 8px;
+      color: #fffaf0;
+      background: rgba(24, 26, 24, 0.64);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.28);
+      cursor: pointer;
+      font: 700 34px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    .image-nav:hover {
+      background: rgba(24, 26, 24, 0.82);
+    }
+    .image-nav.prev {
+      left: 16px;
+    }
+    .image-nav.next {
+      right: 16px;
     }
     .side {
       display: grid;
@@ -197,6 +226,8 @@
       mix-blend-mode: multiply;
       border: 0;
       outline: 0 solid transparent;
+      touch-action: none;
+      user-select: none;
       transition: outline-width 120ms ease, box-shadow 120ms ease, opacity 120ms ease;
     }
     .anno-overlay.selected {
@@ -221,8 +252,13 @@
         border-right: 0;
         border-bottom: 1px solid var(--line);
       }
-      #viewer {
+      .viewerArea {
         height: calc(58vh - 52px);
+      }
+      .image-nav {
+        width: 40px;
+        height: 56px;
+        font-size: 30px;
       }
       .side {
         min-height: 0;
@@ -239,10 +275,14 @@
         <button id="next" type="button" title="Next page">›</button>
         <label title="Show or hide annotation overlays">
           <input id="toggleAnnotations" type="checkbox" checked>
-          Overlays
+          Annotation
         </label>
       </div>
-      <div id="viewer"></div>
+      <div class="viewerArea">
+        <div id="viewer"></div>
+        <button id="imagePrev" class="image-nav prev" type="button" title="Previous page" aria-label="Previous page">‹</button>
+        <button id="imageNext" class="image-nav next" type="button" title="Next page" aria-label="Next page">›</button>
+      </div>
     </section>
     <aside class="side">
       <div class="side-head">
@@ -336,6 +376,26 @@
       return annotations.filter(item => item.page === page);
     }
 
+    function keepViewportStill(action) {
+      const center = viewer.viewport ? viewer.viewport.getCenter(true) : null;
+      const zoom = viewer.viewport ? viewer.viewport.getZoom(true) : null;
+      action();
+      if (!center || zoom == null) return;
+      const restore = () => {
+        viewer.viewport.zoomTo(zoom, center, true);
+        viewer.viewport.panTo(center, true);
+      };
+      restore();
+      requestAnimationFrame(restore);
+      window.setTimeout(restore, 80);
+    }
+
+    function stopOverlayEvent(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      if (event.stopImmediatePropagation) event.stopImmediatePropagation();
+    }
+
     function filteredAnnotations() {
       const q = searchTerm.trim().toLocaleLowerCase();
       if (!q) return annotationsForCurrentPage();
@@ -385,6 +445,13 @@
         el.style.backgroundColor = item.color || COLORS[item.type] || COLORS.name;
         el.style.opacity = String(item.opacity || OPACITY[item.type] || OPACITY.default);
         if (!overlaysVisible) el.classList.add("hidden");
+        ["pointerdown", "pointerup", "mousedown", "mouseup", "dblclick", "touchstart", "touchend"].forEach(type => {
+          el.addEventListener(type, stopOverlayEvent, { capture: true });
+        });
+        el.addEventListener("click", event => {
+          stopOverlayEvent(event);
+          keepViewportStill(() => selectAnnotation(item.id, { scrollList: true }));
+        }, { capture: true });
         viewer.addOverlay({
           element: el,
           location: viewer.viewport.imageToViewportRectangle(x, y, w, h),
@@ -396,7 +463,7 @@
           dragHandler: event => { event.preventDefaultAction = true; },
           clickHandler: event => {
             event.preventDefaultAction = true;
-            selectAnnotation(item.id, { scrollList: true });
+            keepViewportStill(() => selectAnnotation(item.id, { scrollList: true }));
           }
         }).setTracking(true);
         overlayById.set(item.id, el);
@@ -435,11 +502,12 @@
         button.querySelector(".text").textContent = item.text;
         button.addEventListener("click", event => {
           event.preventDefault();
+          event.stopPropagation();
           const targetIndex = canvases.findIndex(canvas => pageFromLabel(canvasLabel(canvas)) === item.page);
           if (targetIndex !== currentPageIndex && targetIndex >= 0) {
             loadPage(targetIndex, item.id);
           } else {
-            selectAnnotation(item.id, { scrollList: false });
+            keepViewportStill(() => selectAnnotation(item.id, { scrollList: false }));
           }
         });
         list.appendChild(button);
@@ -458,7 +526,10 @@
           renderList();
           item = list.querySelector(`[data-id="${CSS.escape(id)}"]`);
         }
-        if (item) item.scrollIntoView({ block: "center", behavior: "smooth" });
+        if (item) {
+          const top = item.offsetTop - (list.clientHeight / 2) + (item.offsetHeight / 2);
+          list.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+        }
       }
     }
 
@@ -487,6 +558,16 @@
 
     document.getElementById("prev").addEventListener("click", () => loadPage(currentPageIndex - 1));
     document.getElementById("next").addEventListener("click", () => loadPage(currentPageIndex + 1));
+    document.getElementById("imagePrev").addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      loadPage(currentPageIndex - 1);
+    });
+    document.getElementById("imageNext").addEventListener("click", event => {
+      event.preventDefault();
+      event.stopPropagation();
+      loadPage(currentPageIndex + 1);
+    });
     pageSelect.addEventListener("change", () => loadPage(Number(pageSelect.value)));
     searchBox.addEventListener("input", () => {
       searchTerm = searchBox.value;
