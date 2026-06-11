@@ -51,8 +51,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0001-image",
@@ -62,8 +62,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4777/39883389565_16cb1a2c2c_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4777/39883389565_16cb1a2c2c_o.tif",
@@ -85,8 +85,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0002-image",
@@ -96,8 +96,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4784/40068927934_324a60c76e_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4784/40068927934_324a60c76e_o.tif",
@@ -119,8 +119,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0003-image",
@@ -130,8 +130,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4780/40068925944_9237e8e634_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4780/40068925944_9237e8e634_o.tif",
@@ -160,8 +160,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0004-image",
@@ -171,8 +171,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4794/40068923274_1949de13a5_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4794/40068923274_1949de13a5_o.tif",
@@ -201,8 +201,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0005-image",
@@ -212,8 +212,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4791/40736391982_f8360bde3a_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4791/40736391982_f8360bde3a_o.tif",
@@ -221,13 +221,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p5"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p5.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 5"
             }
           ]
         },
@@ -242,8 +235,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0006-image",
@@ -253,8 +246,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4789/40736390132_8771d0f37d_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4789/40736390132_8771d0f37d_o.tif",
@@ -262,13 +255,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p6"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p6.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 6"
             }
           ]
         },
@@ -283,8 +269,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0007-image",
@@ -294,8 +280,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/40736388532_8e7fef8009_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/40736388532_8e7fef8009_o.tif",
@@ -303,13 +289,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p7"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p7.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 7"
             }
           ]
         },
@@ -324,8 +303,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0008-image",
@@ -335,8 +314,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4795/40736386202_ebefa5d6b0_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4795/40736386202_ebefa5d6b0_o.tif",
@@ -344,13 +323,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p8"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p8.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 8"
             }
           ]
         },
@@ -365,8 +337,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0009-image",
@@ -376,8 +348,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/40736383662_dc95940838_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/40736383662_dc95940838_o.tif",
@@ -385,13 +357,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p9"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p9.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 9"
             }
           ]
         },
@@ -406,8 +371,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0010-image",
@@ -417,8 +382,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4802/40736380652_b06ba2002a_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4802/40736380652_b06ba2002a_o.tif",
@@ -440,8 +405,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0011-image",
@@ -451,8 +416,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4788/40068900394_78dd18330d_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4788/40068900394_78dd18330d_o.tif",
@@ -460,13 +425,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p11"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p11.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 11"
             }
           ]
         },
@@ -481,8 +439,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0012-image",
@@ -492,8 +450,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/26908331048_9e7f60019d_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/26908331048_9e7f60019d_o.tif",
@@ -501,13 +459,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p12"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p12.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 12"
             }
           ]
         },
@@ -522,8 +473,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0013-image",
@@ -533,8 +484,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4786/40069075934_4caa1d92d3_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4786/40069075934_4caa1d92d3_o.tif",
@@ -542,13 +493,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p13"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p13.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 13"
             }
           ]
         },
@@ -563,8 +507,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0014-image",
@@ -574,8 +518,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4782/25907272437_3815dc0c03_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4782/25907272437_3815dc0c03_o.tif",
@@ -583,13 +527,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p14"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p14.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 14"
             }
           ]
         },
@@ -604,8 +541,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0015-image",
@@ -615,8 +552,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4789/25907270857_46272e0ba0_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4789/25907270857_46272e0ba0_o.tif",
@@ -624,13 +561,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p15"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p15.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 15"
             }
           ]
         },
@@ -645,8 +575,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0016-image",
@@ -656,8 +586,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4775/26908323968_5a2b76fc84_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4775/26908323968_5a2b76fc84_o.tif",
@@ -665,13 +595,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p16"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p16.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 16"
             }
           ]
         },
@@ -686,8 +609,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0017-image",
@@ -697,8 +620,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4787/26908322388_506999e72e_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4787/26908322388_506999e72e_o.tif",
@@ -706,13 +629,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p17"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p17.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 17"
             }
           ]
         },
@@ -727,8 +643,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0018-image",
@@ -738,8 +654,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4790/26908320808_999127615e_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4790/26908320808_999127615e_o.tif",
@@ -747,13 +663,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p18"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p18.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 18"
             }
           ]
         },
@@ -768,8 +677,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0019-image",
@@ -779,8 +688,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4784/26908319698_1acf497572_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4784/26908319698_1acf497572_o.tif",
@@ -788,13 +697,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p19"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p19.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 19"
             }
           ]
         },
@@ -809,8 +711,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0020-image",
@@ -820,8 +722,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4784/26908317798_0d4caaf63e_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4784/26908317798_0d4caaf63e_o.tif",
@@ -829,13 +731,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p20"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p20.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 20"
             }
           ]
         },
@@ -850,8 +745,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0021-image",
@@ -861,8 +756,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/39883445175_3b0dfcbd0d_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/39883445175_3b0dfcbd0d_o.tif",
@@ -870,13 +765,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p21"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p21.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 21"
             }
           ]
         },
@@ -891,8 +779,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0022-image",
@@ -902,8 +790,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4798/39883443815_b803360ea3_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4798/39883443815_b803360ea3_o.tif",
@@ -925,8 +813,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0023-image",
@@ -936,8 +824,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4776/25907251907_ca15ffb46c_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4776/25907251907_ca15ffb46c_o.tif",
@@ -945,13 +833,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p23"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p23.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 23"
             }
           ]
         },
@@ -966,8 +847,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0024-image",
@@ -977,8 +858,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/25907251317_ddf73c2b79_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/25907251317_ddf73c2b79_o.tif",
@@ -986,13 +867,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p24"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p24.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 24"
             }
           ]
         },
@@ -1007,8 +881,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0025-image",
@@ -1018,8 +892,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4797/25907250707_787ef48839_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4797/25907250707_787ef48839_o.tif",
@@ -1027,13 +901,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p25"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p25.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 25"
             }
           ]
         },
@@ -1048,8 +915,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0026-image",
@@ -1059,8 +926,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4775/25907250087_18b8ba49f7_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4775/25907250087_18b8ba49f7_o.tif",
@@ -1068,13 +935,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p26"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p26.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 26"
             }
           ]
         },
@@ -1089,8 +949,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0027-image",
@@ -1100,8 +960,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4796/40736377842_2c482ee272_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4796/40736377842_2c482ee272_o.tif",
@@ -1109,13 +969,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p27"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p27.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 27"
             }
           ]
         },
@@ -1130,8 +983,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0028-image",
@@ -1141,8 +994,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4776/25907249377_3c2213a7b1_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4776/25907249377_3c2213a7b1_o.tif",
@@ -1150,13 +1003,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p28"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p28.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 28"
             }
           ]
         },
@@ -1171,8 +1017,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0029-image",
@@ -1182,8 +1028,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4782/40778247961_600bebdf75_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4782/40778247961_600bebdf75_o.tif",
@@ -1191,13 +1037,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p29"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p29.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 29"
             }
           ]
         },
@@ -1212,8 +1051,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0030-image",
@@ -1223,8 +1062,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4781/40778246661_12b5b69e55_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4781/40778246661_12b5b69e55_o.tif",
@@ -1232,13 +1071,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p30"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p30.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 30"
             }
           ]
         },
@@ -1253,8 +1085,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0031-image",
@@ -1264,8 +1096,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4801/40778243851_2691364511_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4801/40778243851_2691364511_o.tif",
@@ -1273,13 +1105,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p31"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p31.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 31"
             }
           ]
         },
@@ -1294,8 +1119,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0032-image",
@@ -1305,8 +1130,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4781/40778241471_e5e1c35f3c_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4781/40778241471_e5e1c35f3c_o.tif",
@@ -1314,13 +1139,6 @@
                 }
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p32"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p32.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 32"
             }
           ]
         },
@@ -1335,8 +1153,8 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
               "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0033-image",
@@ -1346,8 +1164,8 @@
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4795/40778239271_0e6925fbb1_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4795/40778239271_0e6925fbb1_o.tif",
@@ -1356,17 +1174,10 @@
               },
               "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p33"
             }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p33.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 33"
-            }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p35",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p34",
           "@type": "sc:Canvas",
           "label": "[34]",
           "thumbnail": {
@@ -1376,38 +1187,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0035-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0034-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4773/40778236881_88144b21ee_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4773/40778236881_88144b21ee_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p35"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p34.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 34"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p34"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p37",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p35",
           "@type": "sc:Canvas",
           "label": "[35]",
           "thumbnail": {
@@ -1417,38 +1221,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0037-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0035-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/40778234321_fcdd3181e2_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/40778234321_fcdd3181e2_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p37"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p35.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 35"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p35"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p39",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p36",
           "@type": "sc:Canvas",
           "label": "[36]",
           "thumbnail": {
@@ -1458,38 +1255,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0039-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0036-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4798/40778231961_0767d0e1c3_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4798/40778231961_0767d0e1c3_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p39"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p36.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 36"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p36"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p41",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p37",
           "@type": "sc:Canvas",
           "label": "[37]",
           "thumbnail": {
@@ -1499,38 +1289,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0041-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0037-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4776/40778229511_f982731cc4_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4776/40778229511_f982731cc4_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p41"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p37.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 37"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p37"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p43",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p38",
           "@type": "sc:Canvas",
           "label": "[38]",
           "thumbnail": {
@@ -1540,38 +1323,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0043-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0038-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4794/40778227921_6680e5e9a0_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4794/40778227921_6680e5e9a0_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p43"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p38.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 38"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p38"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p45",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p39",
           "@type": "sc:Canvas",
           "label": "[39]",
           "thumbnail": {
@@ -1581,38 +1357,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0045-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0039-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4778/40068906164_54d11f4812_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4778/40068906164_54d11f4812_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p45"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p39.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 39"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p39"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p47",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p40",
           "@type": "sc:Canvas",
           "label": "[40]",
           "thumbnail": {
@@ -1622,38 +1391,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0047-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0040-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/38968206080_01c90e6e47_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/38968206080_01c90e6e47_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p47"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p40.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 40"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p40"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p49",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p41",
           "@type": "sc:Canvas",
           "label": "[41]",
           "thumbnail": {
@@ -1663,38 +1425,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0049-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0041-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4780/38968203290_7443b1002e_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4780/38968203290_7443b1002e_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p49"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p41.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 41"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p41"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p51",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p42",
           "@type": "sc:Canvas",
           "label": "[42]",
           "thumbnail": {
@@ -1704,38 +1459,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0051-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0042-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4777/38968200990_ac38735986_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4777/38968200990_ac38735986_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p51"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p42.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 42"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p42"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p43",
           "@type": "sc:Canvas",
           "label": "[43]",
           "thumbnail": {
@@ -1745,38 +1493,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0053-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0043-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/38968198610_a44d3b0656_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/38968198610_a44d3b0656_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p43.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 43"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p43"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p55",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p44",
           "@type": "sc:Canvas",
           "label": "[44]",
           "thumbnail": {
@@ -1786,38 +1527,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0055-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0044-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4801/38968196360_d4ac83d48b_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4801/38968196360_d4ac83d48b_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p55"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p44.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 44"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p44"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p57",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p45",
           "@type": "sc:Canvas",
           "label": "[45]",
           "thumbnail": {
@@ -1827,38 +1561,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0057-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0045-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/38968194420_f1a8be4ebb_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/38968194420_f1a8be4ebb_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p57"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p45.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 45"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p45"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p59",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p46",
           "@type": "sc:Canvas",
           "label": "[46]",
           "thumbnail": {
@@ -1868,38 +1595,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0059-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0046-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4795/38968192690_e3d3d20713_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4795/38968192690_e3d3d20713_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p59"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p46.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 46"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p46"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p61",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p47",
           "@type": "sc:Canvas",
           "label": "[47]",
           "thumbnail": {
@@ -1909,38 +1629,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0061-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0047-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/40736454302_5a6a79cd5a_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/40736454302_5a6a79cd5a_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p61"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p47.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 47"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p47"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p63",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p48",
           "@type": "sc:Canvas",
           "label": "[48]",
           "thumbnail": {
@@ -1950,38 +1663,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0063-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0048-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4799/40736451452_7e7cd0f127_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4799/40736451452_7e7cd0f127_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p63"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p48.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 48"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p48"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p49",
           "@type": "sc:Canvas",
           "label": "[49]",
           "thumbnail": {
@@ -1991,38 +1697,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0065-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0049-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4782/40736448522_58ca4aa0a5_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4782/40736448522_58ca4aa0a5_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p49.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 49"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p49"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p67",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p50",
           "@type": "sc:Canvas",
           "label": "[50]",
           "thumbnail": {
@@ -2032,38 +1731,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0067-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0050-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4801/40736445052_8a47b08a3b_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4801/40736445052_8a47b08a3b_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p67"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p50.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 50"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p50"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p69",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p51",
           "@type": "sc:Canvas",
           "label": "[51]",
           "thumbnail": {
@@ -2073,38 +1765,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0069-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0051-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4799/40068904084_f6f5f50cd4_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4799/40068904084_f6f5f50cd4_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p69"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p51.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 51"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p51"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p71",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p52",
           "@type": "sc:Canvas",
           "label": "[52]",
           "thumbnail": {
@@ -2114,38 +1799,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0071-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0052-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4797/40736441922_44d650e74a_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4797/40736441922_44d650e74a_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p71"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p52.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 52"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p52"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p73",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53",
           "@type": "sc:Canvas",
           "label": "[53]",
           "thumbnail": {
@@ -2155,38 +1833,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0073-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0053-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4788/38968314870_59b23cb119_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4788/38968314870_59b23cb119_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p73"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p53.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 53"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p53"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p75",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p54",
           "@type": "sc:Canvas",
           "label": "[54]",
           "thumbnail": {
@@ -2196,38 +1867,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0075-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0054-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4785/40736436112_4ffe4828b3_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4785/40736436112_4ffe4828b3_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p75"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p54.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 54"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p54"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p77",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p55",
           "@type": "sc:Canvas",
           "label": "[55]",
           "thumbnail": {
@@ -2237,38 +1901,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0077-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0055-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4780/40068948044_ba2205c771_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4780/40068948044_ba2205c771_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p77"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p55.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 55"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p55"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p79",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p56",
           "@type": "sc:Canvas",
           "label": "[56]",
           "thumbnail": {
@@ -2278,38 +1935,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0079-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0056-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4800/40068945684_03fdba1266_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4800/40068945684_03fdba1266_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p79"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p56.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 56"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p56"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p81",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p57",
           "@type": "sc:Canvas",
           "label": "[57]",
           "thumbnail": {
@@ -2319,38 +1969,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0081-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0057-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/40736428292_8c20b86455_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/40736428292_8c20b86455_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p81"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p57.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 57"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p57"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p83",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p58",
           "@type": "sc:Canvas",
           "label": "[58]",
           "thumbnail": {
@@ -2360,38 +2003,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0083-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0058-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/40736425082_117b465909_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/40736425082_117b465909_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p83"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p58.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 58"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p58"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p85",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p59",
           "@type": "sc:Canvas",
           "label": "[59]",
           "thumbnail": {
@@ -2401,38 +2037,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0085-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0059-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4786/40736422082_901c7736ab_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4786/40736422082_901c7736ab_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p85"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p59.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 59"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p59"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p87",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p60",
           "@type": "sc:Canvas",
           "label": "[60]",
           "thumbnail": {
@@ -2442,38 +2071,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0087-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0060-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/40736418962_6a938c4281_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4779/40736418962_6a938c4281_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p87"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p60.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 60"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p60"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p89",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p61",
           "@type": "sc:Canvas",
           "label": "[61]",
           "thumbnail": {
@@ -2483,38 +2105,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0089-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0061-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4786/40736415942_b047ec54c9_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4786/40736415942_b047ec54c9_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p89"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p61.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 61"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p61"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p91",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p62",
           "@type": "sc:Canvas",
           "label": "[62]",
           "thumbnail": {
@@ -2524,38 +2139,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0091-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0062-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/40736412352_cde53eacba_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4783/40736412352_cde53eacba_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p91"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p62.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 62"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p62"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p93",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p63",
           "@type": "sc:Canvas",
           "label": "[63]",
           "thumbnail": {
@@ -2565,38 +2173,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0093-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0063-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4798/39883398025_0e21bce10e_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4798/39883398025_0e21bce10e_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p93"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p63.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 63"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p63"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p95",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p64",
           "@type": "sc:Canvas",
           "label": "[64]",
           "thumbnail": {
@@ -2606,38 +2207,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0095-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0064-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4773/39883395515_a6e29277fe_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4773/39883395515_a6e29277fe_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p95"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p64.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 64"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p64"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p97",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65",
           "@type": "sc:Canvas",
           "label": "[65]",
           "thumbnail": {
@@ -2647,38 +2241,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0097-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0065-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/40068902014_5aef2de33a_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4774/40068902014_5aef2de33a_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p97"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p65.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 65"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p65"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p99",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p66",
           "@type": "sc:Canvas",
           "label": "[66]",
           "thumbnail": {
@@ -2688,38 +2275,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0099-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0066-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/39883393295_140bdd583e_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4772/39883393295_140bdd583e_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p99"
-            }
-          ],
-          "otherContent": [
-            {
-              "@id": "https://alicia-ka.github.io/iiif-test/annotations/G30495-02/p66.json",
-              "@type": "sc:AnnotationList",
-              "label": "Annotations for page 66"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p66"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p101",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p67",
           "@type": "sc:Canvas",
           "label": "[67]",
           "thumbnail": {
@@ -2729,31 +2309,31 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0101-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0067-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4785/39883391955_75da5db75a_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4785/39883391955_75da5db75a_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p101"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p67"
             }
           ]
         },
         {
-          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p103",
+          "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p68",
           "@type": "sc:Canvas",
           "label": "[68]",
           "thumbnail": {
@@ -2763,26 +2343,26 @@
             "width": 220,
             "height": 220
           },
-          "height": 6500,
-          "width": 5350,
+          "height": 5350,
+          "width": 6500,
           "images": [
             {
-              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0103-image",
+              "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/annotation/p0068-image",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
                 "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4789/39883390515_3779311d1a_o.tif/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 6500,
-                "width": 5350,
+                "height": 5350,
+                "width": 6500,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
                   "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/iiif/uparl/flickr/4789/39883390515_3779311d1a_o.tif",
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p103"
+              "on": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/35f86a28-6c28-434b-a9fb-9182b8dbf0fa/canvas/p68"
             }
           ]
         }
