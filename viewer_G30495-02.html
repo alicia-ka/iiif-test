@@ -129,6 +129,7 @@
       border-radius: 2px;
       background: var(--overlay-color, rgba(200, 208, 216, .32));
       cursor: pointer;
+      mix-blend-mode: multiply;
       transition: opacity .16s ease, filter .16s ease, box-shadow .16s ease;
     }
     .overlay.active {
@@ -211,6 +212,10 @@
 
     function colorFor(type) {
       return colors[String(type || "").toLowerCase()] || defaultColor;
+    }
+
+    function alphaFor(type) {
+      return String(type || "").toLowerCase() === "title" ? .58 : .34;
     }
 
     function rgba(hex, alpha) {
@@ -303,7 +308,7 @@
           const element = document.createElement("div");
           element.className = "overlay";
           element.title = item.text;
-          element.style.setProperty("--overlay-color", rgba(colorFor(item.type), .34));
+          element.style.setProperty("--overlay-color", rgba(colorFor(item.type), alphaFor(item.type)));
           const rect = viewer.viewport.imageToViewportRectangle(x, y, w, h);
           viewer.addOverlay({ element, location: rect });
           annotations.push({ item, element, rect });
