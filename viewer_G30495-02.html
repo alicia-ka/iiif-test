@@ -95,6 +95,10 @@
       cursor: pointer;
     }
     .item:hover { background: #f3f7fb; }
+    .item.selected {
+      background: #edf6ff;
+      box-shadow: inset 3px 0 0 #54B5E2;
+    }
     .tag {
       display: inline-flex;
       align-items: center;
@@ -192,6 +196,7 @@
     let canvasIndexByLabel = new Map();
     let currentIndex = 0;
     let annotations = [];
+    let listElementsById = new Map();
     let pendingFocusId = null;
 
     const pageSelect = document.querySelector("#page");
@@ -215,7 +220,7 @@
     }
 
     function alphaFor(type) {
-      return String(type || "").toLowerCase() === "title" ? .58 : .34;
+      return ["title", "text"].includes(String(type || "").toLowerCase()) ? .58 : .34;
     }
 
     function rgba(hex, alpha) {
@@ -232,17 +237,20 @@
       list.replaceChildren();
     }
 
-    function focusAnnotation(index) {
+    function focusAnnotation(index, options = {}) {
       const annotation = annotations[index];
       if (!annotation) return;
       document.querySelectorAll(".overlay").forEach(el => el.classList.remove("active"));
       annotation.element.classList.add("active");
       viewer.viewport.fitBounds(annotation.rect, true);
+      if (options.scrollList) {
+        jumpToListItem(annotation.item.id);
+      }
     }
 
-    function focusAnnotationById(id) {
+    function focusAnnotationById(id, options = {}) {
       const index = annotations.findIndex(item => item.item.id === id);
-      if (index >= 0) focusAnnotation(index);
+      if (index >= 0) focusAnnotation(index, options);
     }
 
     function applyOverlayVisibility() {
@@ -251,9 +259,11 @@
 
     function renderList(items, mode) {
       list.replaceChildren();
+      listElementsById = new Map();
       items.forEach((item, idx) => {
         const element = document.createElement("div");
         element.className = "item";
+        element.dataset.annotationId = item.id;
         element.innerHTML = `<span class="tag"></span><span class="meta"></span><span class="text"></span>`;
         const color = colorFor(item.type);
         element.querySelector(".tag").textContent = item.type || "annotation";
@@ -268,8 +278,21 @@
             focusAnnotation(idx);
           }
         });
+        listElementsById.set(item.id, element);
         list.appendChild(element);
       });
+    }
+
+    function jumpToListItem(id) {
+      if (search.value.trim()) {
+        search.value = "";
+        renderCurrentPageList();
+      }
+      document.querySelectorAll(".item.selected").forEach(el => el.classList.remove("selected"));
+      const element = listElementsById.get(id);
+      if (!element) return;
+      element.classList.add("selected");
+      element.scrollIntoView({ block: "center", behavior: "smooth" });
     }
 
     function renderSearchResults() {
@@ -312,13 +335,13 @@
           const rect = viewer.viewport.imageToViewportRectangle(x, y, w, h);
           viewer.addOverlay({ element, location: rect });
           annotations.push({ item, element, rect });
-          element.addEventListener("click", () => focusAnnotation(idx));
+          element.addEventListener("click", () => focusAnnotation(idx, { scrollList: true }));
         });
         applyOverlayVisibility();
         if (search.value.trim()) renderSearchResults();
         else renderCurrentPageList();
         if (pendingFocusId) {
-          focusAnnotationById(pendingFocusId);
+          focusAnnotationById(pendingFocusId, { scrollList: true });
           pendingFocusId = null;
         }
       });
